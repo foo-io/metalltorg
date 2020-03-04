@@ -1,2 +1,0 @@
-# metalltorg
-Template MetallTorg
