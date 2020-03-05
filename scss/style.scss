@@ -1,5 +1,96 @@
 @import '_reset';
+@import '_colors';
+@import '_fonts';
+@import '_icons';
+@import '_grids';
 
-body {
-    color: red;
+.container {
+    width: 100%;
+    max-width: 1136px;
+    margin: 0 auto;
+}
+.header {
+    &__top {
+        @extend %font_headerTop;
+
+        color: $color__headerTop;
+        border-bottom: 1px solid $color__border;
+
+        &-block {
+            display: flex;
+            justify-content: space-between;   
+            padding: 10px 0px 10px 0; 
+        }
+    }
+    &__center {
+        &-block {
+            display: flex;
+        }
+    }
+    &__logo {
+        padding: 16px 0 16px 0;
+
+        &-link img {
+            display: inherit;
+        }
+    }
+    &__nav {
+        display: flex;
+        align-items: center;
+    }
+    &__menu {
+        @extend %font_headerMenu;
+
+        display: flex;
+
+        &-link {
+            margin-right: 32px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+            a {
+                text-decoration: none;
+                color: $color__headerNav;
+            }
+        }
+    }
+    &__auth {
+        display: flex;
+        align-items: center;
+        
+        margin-left: auto;
+
+        a {
+            color: $color__headerAuth;
+            text-decoration: none;
+        }
+        &-login {
+            padding-right: 16px;
+            padding-left: 25px;
+            background: url(/images/header/Auth.svg);
+        }
+        
+        &-register {
+            //margin-left: 16px;
+            padding-left: 16px;
+            border-left: 1px solid $color__border;
+        }
+    }
+}
+.information {
+    display: flex;
+
+    &__address, &__instagram, &__numbers {
+        display: flex;
+        align-items: center;
+
+    }
+    &__instagram, &__numbers {
+        margin-left: 35px;
+    }
+
+    &__text {
+        padding-left: 15px;
+    }
 }

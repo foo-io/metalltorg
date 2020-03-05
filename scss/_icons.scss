@@ -1,0 +1,28 @@
+// настройка иконок
+.icon {
+    display: block;
+}
+i.address {
+    width: 12px;
+    height: 17px;
+    background-image: url(/images/header/Location.svg);
+    background-repeat: no-repeat;
+}
+i.instagram {
+    width: 18px;
+    height: 18px;
+    background-image: url(/images/header/Instagram.svg);
+    background-repeat: no-repeat;
+}
+i.numbers {
+    width: 17px;
+    height: 17px;
+    background-image: url(/images/header/Call.svg);
+    background-repeat: no-repeat;
+}
+i.numbers {
+    width: 17px;
+    height: 17px;
+    background-image: url(/images/header/Auth.svg);
+    background-repeat: no-repeat;
+}
