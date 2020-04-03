@@ -1,0 +1,1091 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="windows1251"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог карточек</title>
+    <!-- Compressed CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.1/dist/css/foundation.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.1/dist/css/foundation-float.min.css">
+
+    <link rel="stylesheet" href="../css/foundation-icons/foundation-icons.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+</head>
+<body>
+    <div id="overlay"></div>
+
+    <!-- Главный блок (необязательно) -->
+    <div class="main">
+        <!-- Блок хедера, можно копипастить  -->
+        <!-- версия от 12,03 / не будет меняться / актуальная на битриксе -->
+        <header class="header">
+            <div class="header__top">
+                <div class="container header__top-block">
+                    <div class="name">Интернет-магазин ООО “МеталлТорг”</div>
+                    <div class="information">
+                        <div class="information__address">
+                            <i class="icon address"></i>
+                            <div class="information__text">
+                                г. Якутск, Автодорожная, 1
+                            </div>
+                        </div>
+                        <div class="information__instagram">
+                            <i class="icon instagram"></i>
+                            <div class="information__text">
+                                @metalltorg_ykt
+                            </div>
+                        </div>
+                        <div class="information__numbers">
+                            <ul class="dropdown menu" data-dropdown-menu>
+                                <li>
+                                    <a href="#">
+                                        <i class="icon numbers"></i>+7 (4112) 47‒33‒33 (единая справочная)<i class="icon dropdown"></i>
+                                    </a>
+                                    <ul class="menu">
+                                        <li><a href="#">+7 (4112) 47‒33‒33 (единая справочная)</a></li>
+                                        <li><a href="#">+7 (4112) 47‒33‒33 (единая справочная)</a></li>
+                                        <li><a href="#">+7 (4112) 47‒33‒33 (единая справочная)</a></li>
+                                       
+                                    </ul>
+                                </li>
+                              </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__center">
+                <div class="container header__center-block">
+                    <div class="header__logo g-3">
+                        <a href="#" class="header__logo-link">
+                            <img src="/images/header/logo.svg" alt="МеталлТорг">
+                        </a>
+                    </div>
+                    <div class="header__nav">
+                        <ul class="dropdown menu header__menu" data-dropdown-menu>
+                            <li class="header__menu-link"><a href="#">Новости</a></li>
+                            <li class="header__menu-link">
+                                <a href="#">О компании<i class="icon dropdown"></i></a>
+                                <ul class="menu">
+                                    <li><a href="#">О компании</a></li>
+                                    <li><a href="#">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li class="header__menu-link"><a href="#">Вакансии</a></li>
+                            <li class="header__menu-link"><a href="#">Контакты</a></li>
+                            <li class="header__menu-link">
+                                <a href="#">Покупателям <i class="icon dropdown"></i></a>
+                                <ul class="menu">
+                                    <li><a href="#">Личный кабинет покупателя</a></li>
+                                    <li><a href="#">Доставка</a></li>
+                                    <li><a href="#">Обмен/возврат</a></li>
+                                    <li><a href="#">Пользовательские соглашения</a></li>
+                                    <li><a href="#">Политика конфиденциальности</a></li>
+                                </ul>
+                            </li>
+                          </ul>
+                    </div>
+                    <div class="header__auth">
+                        <div class="header__auth-login">
+                            <a href="#"><i class="fi-torso" style="margin-right: 10px;"></i> Вход</a>
+                        </div>
+                        <div class="header__auth-register">
+                            <a href="#">Регистрация</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <div class="container header__bottom-block">
+                    <div class="catalog">
+                        <ul class="vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown" data-click-open="true" data-disable-hover="true" data-close-on-click-inside="true">
+                            <li>
+                                <a href="#" class="catalog__link" id="catalogMenu">
+                                    <i class="icon burger"></i>
+                                    Каталог товаров
+                                    <i class="icon dropdown-white"></i>
+                                </a>
+                                <ul class="vertical menu" data-responsive-menu="drilldown medium-dropdown"  data-disable-hover="false">
+                                    <li>
+                                        <a href="#" class="catalog__link">Плитка<i class="icon dropdown-horizontal"></i></a>
+                                        <ul class="vertical menu">
+                                            <div class="menu__header">
+                                                <h4>Плитка</h4>
+                                            </div>
+                                            <div class="menu__content">
+                                                <li><a href="#">Плитка</a></li>
+                                                <li><a href="#">Керамогранит</a></li>
+                                                <li><a href="#">Мозаика</a></li>
+                                                <li><a href="#">Затирки для швов плитки</a></li>
+                                                <li><a href="#">Клеи и средства для укладки плитки</a></li>
+                                                <li><a href="#">Плитка</a></li>
+                                                <li><a href="#">Керамогранит</a></li>
+                                                <li><a href="#">Мозаика</a></li>
+                                                <li><a href="#">Затирки для швов плитки</a></li>
+                                                <li><a href="#">Клеи и средства для укладки плитки</a></li>
+                                                <li><a href="#">Плитка</a></li>
+                                                <li><a href="#">Керамогранит</a></li>
+                                                <li><a href="#">Мозаика</a></li>
+                                                <li><a href="#">Затирки для швов плитки</a></li>
+                                                <li><a href="#">Клеи и средства для укладки плитки</a></li>
+                                            </div>
+                                            <div class="menu__images">
+                                                <img src="/images/header/menu/plit.png" alt="Плитка">
+                                            </div>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="catalog__link">Кровля<i class="icon dropdown-horizontal"></i></a>
+                                        <ul class="vertical menu">
+                                            <div class="menu__header">
+                                                <h4>Кровля</h4>
+                                            </div>
+                                            <div class="menu__content">
+                                                <li><a href="#">Плитка</a></li>
+                                                <li><a href="#">Керамогранит</a></li>
+                                                <li><a href="#">Мозаика</a></li>
+                                                <li><a href="#">Затирки для швов плитки</a></li>
+                                                <li><a href="#">Клеи и средства для укладки плитки</a></li>
+                                                <li><a href="#">Плитка</a></li>
+                                                <li><a href="#">Керамогранит</a></li>
+                                                <li><a href="#">Мозаика</a></li>
+                                                <li><a href="#">Затирки для швов плитки</a></li>
+                                                <li><a href="#">Клеи и средства для укладки плитки</a></li>
+                                                <li><a href="#">Плитка</a></li>
+                                                <li><a href="#">Керамогранит</a></li>
+                                                <li><a href="#">Мозаика</a></li>
+                                                <li><a href="#">Затирки для швов плитки</a></li>
+                                                <li><a href="#">Клеи и средства для укладки плитки</a></li>
+                                            </div>
+                                            <div class="menu__images">
+                                                <img src="/images/header/menu/plit.png" alt="Плитка">
+                                            </div>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Фасад</a></li>
+                                    <li><a href="#">Двери</a></li>
+                                    <li><a href="#">Сантехника</a></li>
+                                    <li><a href="#">Лако-красочные материалы</a></li>
+                                    <li><a href="#">Ленолиум</a></li>
+                                    <li><a href="#">Санфаянс</a></li>
+                                    <li><a href="#">Другие товары</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="search">
+                        <form action="" class="search__form">
+                            <input type="text" class="search__form-input" placeholder="Поиск по каталогу среди товаров и фирм...">
+                            <button type="submit" class="search__form-button"><i class="icon search"></i></button>
+                        </form>
+                    </div>
+                    <div class="widget">
+                        <div class="widget__block">
+                            <a href="#" class="widget__block-link">
+                                <i class="icon union"></i>
+                                Сравнение
+                                <span>(0)</span>
+                            </a>
+                        </div>
+                        <div class="widget__block">
+                            <a href="#" class="widget__block-link">
+                                <i class="icon favorite"></i>
+                                Избранное
+                                <span>(0)</span>
+                            </a>
+                        </div>
+                        <div class="widget__block">
+                            <a href="#" class="widget__block-link">
+                                <i class="icon cart"></i>
+                                Корзина
+                                <span>(0)</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- / конец хедера -->
+
+        <!-- Хлебные крошки -->
+
+        <div class="breadcrumb" aria-label="You are here:" role="navigation">
+            <div class="container">
+                <ul class="breadcrumbs">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Каталог товаров</a></li>
+                    <li><a href="#">Кровля</a></li>
+                    <li>Металлочерепица</li>
+                  </ul>
+            </div>
+        </div>
+        <!-- / Хлебные крошки -->
+
+        <!-- Контентная часть -->
+        <main style="background-color: #F8F8F8;">
+            <div class="container">
+
+                <div class="content">
+
+                    <a href="#" class="back mg-32">Вернуться</a>
+
+                    <div class="page__header pdt0">
+                        <h1 class="page__title">Металлочерепица</h1>
+                    </div>
+                
+                    <div class="tags">
+                        <a href="#" class="tags__link selected">Все товары</a>
+                        <a href="#" class="tags__link">Лист металлочерепицы</a>
+                        <a href="#" class="tags__link">Ветровая планка</a>
+                        <a href="#" class="tags__link">Ендова</a>
+                        <a href="#" class="tags__link">Конек</a>
+                        <a href="#" class="tags__link">Планка для внутренних углов</a>
+                        <a href="#" class="tags__link">Планка карнизная</a>
+                        <a href="#" class="tags__link">Планка примыкания</a>
+                        <a href="#" class="tags__link">Саморез</a>
+                        <a href="#" class="tags__link">Снегозадержатель</a>
+                        <a href="#" class="tags__link">Уплотнитель</a>
+                    </div>
+
+                    <div class="sorting">
+                        <ul class="dropdown menu sorting__menu" data-dropdown-menu>
+                            <li class="sorting__menu-link">
+                                <a href="#">По популярности <i class="icon dropdown"></i></a>
+                                <ul class="menu">
+                                    <li><a href="#">Lorem, ipsum.</a></li>
+                                    <li><a href="#">Lorem, ipsum dolor.</a></li>
+                                </ul>
+                            </li>
+                            <li class="sorting__menu-link">
+                                <a href="#">По алфавиту <i class="icon dropdown"></i></a>
+                                <ul class="menu">
+                                    <li><a href="#">Lorem, ipsum.</a></li>
+                                    <li><a href="#">Lorem, ipsum dolor.</a></li>
+                                </ul>
+                            </li>
+                            <li class="sorting__menu-link">
+                                <a href="#">По цене (по возрастанию) <i class="icon dropdown"></i></a>
+                                <ul class="menu">
+                                    <li><a href="#">Lorem, ipsum.</a></li>
+                                    <li><a href="#">Lorem, ipsum dolor.</a></li>
+                                    <li><a href="#">Lorem, ipsum.</a></li>
+                                    <li><a href="#">Lorem, ipsum dolor.</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="sorting__selector">
+                            <button class="selected"><img src="/css/images/content/sorting/cards_active.svg" alt=""></button>
+                            <button><img src="/css/images/content/sorting/tables.svg" alt=""></button>
+                        </div>
+                    </div>
+
+                    <div class="filters__mobile">
+                        //filters
+                    </div>
+
+                    <div class="wrapper">
+                        <aside class="sidebar">
+                            <ul class="accordion" data-accordion data-accordion data-allow-all-closed="true">
+                                <li class="accordion-item is-active" data-accordion-item>
+                                    <a href="#" class="accordion-title">Цена</a>
+                                
+                                    <div class="accordion-content" data-tab-content>
+                                        
+                                        <div class="sidebar__price">
+                                            <input type="number" name="price_1" class="sidebar__price-input price__1">
+                                            <div class="sidebar__price-delimeter"></div>
+                                            <input type="number" name="price_2" class="sidebar__price-input price__2">
+                                        </div>
+    
+                                        <div class="sidebar__slider">
+                                            <div id="slider-range"></div>
+                                            <div class="slider-range__price">
+                                                <div class="price__1"></div>
+                                                <div class="price__2"></div>    
+                                            </div>
+                                        </div>
+    
+                                        <div class="checkboxes">
+                                            <label class="checkboxes__item">
+                                                <label for="checkbox11">Все <span class="checkboxes__item-count">5</span></label>
+                                                <input id="checkbox11" type="checkbox" class="checkbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="checkboxes__item">
+                                                <label for="checkbox12">Цена без скидки <span class="checkboxes__item-count">6</span></label>
+                                                <input id="checkbox12" type="checkbox" class="checkbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="checkboxes__item">
+                                                <label for="checkbox13">Цена со скидкой <span class="checkboxes__item-count">4</span></label>
+                                                <input id="checkbox13" type="checkbox" class="checkbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="accordion" data-accordion data-accordion data-allow-all-closed="true">
+                            <li class="accordion-item is-active" data-accordion-item>
+                                <a href="#" class="accordion-title">Цвет</a>
+                            
+                                <div class="accordion-content" data-tab-content>
+                                    <div class="checkboxes">
+                                        <label class="checkboxes__item">
+                                            <label for="checkbox21">Зеленый <span class="checkboxes__item-count">5</span></label>
+                                            <input id="checkbox21" type="checkbox" class="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="checkboxes__item">
+                                            <label for="checkbox22">Коричневый <span class="checkboxes__item-count">6</span></label>
+                                            <input id="checkbox22" type="checkbox" class="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="checkboxes__item">
+                                            <label for="checkbox23">Красный <span class="checkboxes__item-count">4</span></label>
+                                            <input id="checkbox23" type="checkbox" class="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="checkboxes__item">
+                                            <label for="checkbox24">Серый <span class="checkboxes__item-count">4</span></label>
+                                            <input id="checkbox24" type="checkbox" class="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </li>
+                            </ul>
+                            <div class="sidebar__last">
+                                <ul class="accordion" data-accordion data-accordion data-allow-all-closed="true">
+                                    <li class="accordion-item is-active" data-accordion-item>
+                                        <a href="#" class="accordion-title">Толщина металла (мм.)</a>
+                                    
+                                        <div class="accordion-content" data-tab-content>
+                                            <div class="checkboxes">
+                                                <label class="checkboxes__item">
+                                                    <label for="checkbox31">0.35 <span class="checkboxes__item-count">18</span></label>
+                                                    <input id="checkbox31" type="checkbox" class="checkbox">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                                <label class="checkboxes__item">
+                                                    <label for="checkbox32">0.4 <span class="checkboxes__item-count">9</span></label>
+                                                    <input id="checkbox32" type="checkbox" class="checkbox">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    </ul>
+                                    <button class="sidebar__cancel"><i class="icon cancel"></i> Очистить фильтр</button>        
+                            </div>
+                        </aside>
+    
+                        <div class="products">
+                            <div class="product">
+                                <div class="product__image">
+                                    <a href="#" class="product__title-link"><img src="/images/content/products/Rectangle 38.png" alt=""></a>
+                                    <!-- Добавление: кнопка удаления из избранного -->
+                                    <div class="button__block">
+                                        <button class="button__add"><img src="/css/images/content/products/Add_Favorites.svg" alt=""></button>
+                                        <button class="button__add"><img src="/css/images/content/products/Sravn.svg" alt=""></button>
+                                    </div>
+                                </div>
+                                <div class="product__rating">
+                                    <div class="product__rating-top" style="width: 60%"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                    <div class="product__rating-bottom"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                    <span class="product__rating-value">3</span>
+                                </div>
+                                <div class="product__title">
+                                    <a href="#" class="product__title-link">Металлочерепица Grand Line Kredo Quarzit 0,5 мм RR 32 резка</a>
+                                </div>
+                                <div class="product__vcode">
+                                    Артикул: 10008698
+                                </div>
+                                <div class="product__cart">
+                                    <div class="product__price">
+                                        <div class="product__price-old">1 899 ₽</div>
+                                        <div class="product__price-new"><strong>от 723,60 ₽/кв.м</strong></div>
+                                    </div>
+                                    <div class="product__add">
+                                        <button title="Добавить товар в корзину"><img src="/images/content/products/Add.svg" alt="Добавить в корзину"></button>
+                                    </div>
+                                </div>
+                                <div class="product__hidden">
+                                    <div class="number-input">
+                                        <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+                                        <input class="quantity" min="1" name="quantity" value="1" type="number">
+                                        <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+                                    </div>
+
+                                    <div class="product__hidden-sum">Итого: <strong>1 499 ₽</strong></div>
+
+                                    <button class="product__hidden-button selected">
+                                        <span>Добавить в корзину</span>
+                                        <img src="/css/images/content/products/Add.svg" alt="Добавить в корзину">
+                                    </button>
+                                    <button class="product__hidden-button">
+                                        <span>Купить в 1 клик</span>
+                                        <img src="/css/images/content/products/Click.svg" alt="Добавить в корзину">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product__image">
+                                    <a href="#" class="product__title-link"><img src="/images/content/products/Rectangle 38 (1).png" alt=""></a>
+                                    <div class="button__block">
+                                        <button class="button__add"><img src="/css/images/content/products/Add_Favorites.svg" alt=""></button>
+                                        <button class="button__add"><img src="/css/images/content/products/Sravn.svg" alt=""></button>
+                                    </div>
+                                </div>
+                                <div class="product__rating">
+                                    <div class="product__rating-top" style="width: 60%"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                    <div class="product__rating-bottom"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                    <span class="product__rating-value">3</span>
+                                </div>
+                                <div class="product__title">
+                                    <a href="#" class="product__title-link">
+                                        Мойка комп. HARTE 4568 (680х480мм) Серый 310 овальная
+                                    </a>
+                                </div>
+                                <div class="product__vcode">
+                                    Артикул: 10008698
+                                </div>
+                                <div class="product__cart">
+                                    <div class="product__price">
+                                        <div class="product__price-old">5 899 ₽</div>
+                                        <div class="product__price-new"><strong>3 156 ₽</strong></div>
+                                    </div>
+                                    <div class="product__add">
+                                        <button title="Добавить товар в корзину"><img src="/images/content/products/Add.svg" alt="Добавить в корзину"></button>
+                                    </div>
+                                </div>
+                                <div class="product__hidden">
+                                    <div class="number-input">
+                                        <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+                                        <input class="quantity" min="1" name="quantity" value="1" type="number">
+                                        <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+                                    </div>
+
+                                    <div class="product__hidden-sum">Итого: <strong>1 499 ₽</strong></div>
+
+                                    <button class="product__hidden-button selected">
+                                        <span>Добавить в корзину</span>
+                                        <img src="/css/images/content/products/Add.svg" alt="Добавить в корзину">
+                                    </button>
+                                    <button class="product__hidden-button">
+                                        <span>Купить в 1 клик</span>
+                                        <img src="/css/images/content/products/Click.svg" alt="Добавить в корзину">
+                                    </button>
+                                </div>
+
+                            </div>
+                            <div class="product disabled">
+                                <div class="product__image">
+                                    <a href="#" class="product__title-link"><img src="/images/content/products/Rectangle 38 (2).png" alt=""></a>
+                                    <div class="button__block">
+                                        <button class="button__add"><img src="/css/images/content/products/Add_Favorites.svg" alt=""></button>
+                                        <button class="button__add"><img src="/css/images/content/products/Sravn.svg" alt=""></button>
+                                    </div>
+                                </div>
+                                <div class="product__rating">
+                                    <div class="product__rating-top" style="width: 60%"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                    <div class="product__rating-bottom"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                    <span class="product__rating-value">3</span>
+                                </div>
+                                <div class="product__title">
+                                    <a href="#" class="product__title-link">
+                                        Смеситель GranFest QUARZ (GF-Z3323) УТКА D-35mm
+                                    </a>
+                                </div>
+                                <div class="product__vcode">
+                                    Артикул: 10008698
+                                </div>
+                                <div class="product__cart">
+                                    <div class="product__price">
+                                        Нет в наличии
+                                    </div>
+                                    <div class="product__add">
+                                        <button title="Нет в наличии"><img src="/css/images/content/products/Non.svg" alt="Нет в наличии"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product__image">
+                                    <a href="#" class="product__title-link"><img src="/images/content/products/Rectangle 38 (3).png" alt=""></a>
+                                    <div class="button__block">
+                                        <button class="button__add"><img src="/css/images/content/products/Add_Favorites.svg" alt=""></button>
+                                        <button class="button__add"><img src="/css/images/content/products/Sravn.svg" alt=""></button>
+                                    </div>
+                                </div>
+                                <div class="product__rating">
+                                    <div class="product__rating-top" style="width: 60%"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                    <div class="product__rating-bottom"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                    <span class="product__rating-value">3</span>
+                                </div>
+                                <div class="product__title">
+                                    <a href="#" class="product__title-link">
+                                        Тумба Классик 55
+                                    </a>
+                                </div>
+                                <div class="product__vcode">
+                                    Артикул: 10008698
+                                </div>
+                                <div class="product__cart">
+                                    <div class="product__price">
+                                        <div class="product__price-old">2 899 ₽</div>
+                                        <div class="product__price-new"><strong>1 800 ₽</strong></div>
+                                    </div>
+                                    <div class="product__add">
+                                        <button title="Добавить товар в корзину"><img src="/images/content/products/Add.svg" alt="Добавить в корзину"></button>
+                                    </div>
+                                </div>
+                                <div class="product__hidden">
+                                    <div class="number-input">
+                                        <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+                                        <input class="quantity" min="1" name="quantity" value="1" type="number">
+                                        <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+                                    </div>
+
+                                    <div class="product__hidden-sum">Итого: <strong>1 499 ₽</strong></div>
+
+                                    <button class="product__hidden-button selected">
+                                        <span>Добавить в корзину</span>
+                                        <img src="/css/images/content/products/Add.svg" alt="Добавить в корзину">
+                                    </button>
+                                    <button class="product__hidden-button">
+                                        <span>Купить в 1 клик</span>
+                                        <img src="/css/images/content/products/Click.svg" alt="Добавить в корзину">
+                                    </button>
+                                </div>
+
+                            </div>
+                            <div class="product">
+                                <div class="product__image">
+                                    <a href="#" class="product__title-link"><img src="/images/content/products/Rectangle 38.png" alt=""></a>
+                                    <div class="button__block">
+                                        <button class="button__add"><img src="/css/images/content/products/Add_Favorites.svg" alt=""></button>
+                                        <button class="button__add"><img src="/css/images/content/products/Sravn.svg" alt=""></button>
+                                    </div>
+                                </div>
+                                <div class="product__rating">
+                                    <div class="product__rating-top" style="width: 60%"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                    <div class="product__rating-bottom"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                    <span class="product__rating-value">3</span>
+                                </div>
+                                <div class="product__title">
+                                    <a href="#" class="product__title-link">Металлочерепица Grand Line Kredo Quarzit 0,5 мм RR 32 резка</a>
+                                </div>
+                                <div class="product__vcode">
+                                    Артикул: 10008698
+                                </div>
+                                <div class="product__cart">
+                                    <div class="product__price">
+                                        <div class="product__price-old">1 899 ₽</div>
+                                        <div class="product__price-new"><strong>от 723,60 ₽/кв.м</strong></div>
+                                    </div>
+                                    <div class="product__add">
+                                        <button title="Добавить товар в корзину"><img src="/images/content/products/Add.svg" alt="Добавить в корзину"></button>
+                                    </div>
+                                </div>
+                                <div class="product__hidden">
+                                    <div class="number-input">
+                                        <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+                                        <input class="quantity" min="1" name="quantity" value="1" type="number">
+                                        <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+                                    </div>
+
+                                    <div class="product__hidden-sum">Итого: <strong>1 499 ₽</strong></div>
+
+                                    <button class="product__hidden-button selected">
+                                        <span>Добавить в корзину</span>
+                                        <img src="/css/images/content/products/Add.svg" alt="Добавить в корзину">
+                                    </button>
+                                    <button class="product__hidden-button">
+                                        <span>Купить в 1 клик</span>
+                                        <img src="/css/images/content/products/Click.svg" alt="Добавить в корзину">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product__image">
+                                    <a href="#" class="product__title-link"><img src="/images/content/products/Rectangle 38 (1).png" alt=""></a>
+                                    <div class="button__block">
+                                        <button class="button__add"><img src="/css/images/content/products/Add_Favorites.svg" alt=""></button>
+                                        <button class="button__add"><img src="/css/images/content/products/Sravn.svg" alt=""></button>
+                                    </div>
+                                </div>
+                                <div class="product__rating">
+                                    <div class="product__rating-top" style="width: 60%"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                    <div class="product__rating-bottom"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                    <span class="product__rating-value">3</span>
+                                </div>
+                                <div class="product__title">
+                                    <a href="#" class="product__title-link">
+                                        Мойка комп. HARTE 4568 (680х480мм) Серый 310 овальная
+                                    </a>
+                                </div>
+                                <div class="product__vcode">
+                                    Артикул: 10008698
+                                </div>
+                                <div class="product__cart">
+                                    <div class="product__price">
+                                        <div class="product__price-old">5 899 ₽</div>
+                                        <div class="product__price-new"><strong>3 156 ₽</strong></div>
+                                    </div>
+                                    <div class="product__add">
+                                        <button title="Добавить товар в корзину"><img src="/images/content/products/Add.svg" alt="Добавить в корзину"></button>
+                                    </div>
+                                </div>
+                                <div class="product__hidden">
+                                    <div class="number-input">
+                                        <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+                                        <input class="quantity" min="1" name="quantity" value="1" type="number">
+                                        <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+                                    </div>
+
+                                    <div class="product__hidden-sum">Итого: <strong>1 499 ₽</strong></div>
+
+                                    <button class="product__hidden-button selected">
+                                        <span>Добавить в корзину</span>
+                                        <img src="/css/images/content/products/Add.svg" alt="Добавить в корзину">
+                                    </button>
+                                    <button class="product__hidden-button">
+                                        <span>Купить в 1 клик</span>
+                                        <img src="/css/images/content/products/Click.svg" alt="Добавить в корзину">
+                                    </button>
+                                </div>
+
+                            </div>
+                            <div class="product disabled">
+                                <div class="product__image">
+                                    <a href="#" class="product__title-link"><img src="/images/content/products/Rectangle 38 (2).png" alt=""></a>
+                                </div>
+                                <div class="product__rating">
+                                    <div class="product__rating-top" style="width: 60%"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                    <div class="product__rating-bottom"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                    <span class="product__rating-value">3</span>
+                                </div>
+                                <div class="product__title">
+                                    <a href="#" class="product__title-link">
+                                        Смеситель GranFest QUARZ (GF-Z3323) УТКА D-35mm
+                                    </a>
+                                </div>
+                                <div class="product__vcode">
+                                    Артикул: 10008698
+                                </div>
+                                <div class="product__cart">
+                                    <div class="product__price">
+                                        Нет в наличии
+                                    </div>
+                                    <div class="product__add">
+                                        <button title="Нет в наличии"><img src="/css/images/content/products/Non.svg" alt="Нет в наличии"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product__image">
+                                    <a href="#" class="product__title-link"><img src="/images/content/products/Rectangle 38.png" alt=""></a>
+                                </div>
+                                <div class="product__rating">
+                                    <div class="product__rating-top" style="width: 60%"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                    <div class="product__rating-bottom"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                    <span class="product__rating-value">3</span>
+                                </div>
+                                <div class="product__title">
+                                    <a href="#" class="product__title-link">Металлочерепица Grand Line Kredo Quarzit 0,5 мм RR 32 резка</a>
+                                </div>
+                                <div class="product__vcode">
+                                    Артикул: 10008698
+                                </div>
+                                <div class="product__cart">
+                                    <div class="product__price">
+                                        <div class="product__price-old">1 899 ₽</div>
+                                        <div class="product__price-new"><strong>от 723,60 ₽/кв.м</strong></div>
+                                    </div>
+                                    <div class="product__add">
+                                        <button title="Добавить товар в корзину"><img src="/images/content/products/Add.svg" alt="Добавить в корзину"></button>
+                                    </div>
+                                </div>
+                                <div class="product__hidden">
+                                    <div class="number-input">
+                                        <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+                                        <input class="quantity" min="1" name="quantity" value="1" type="number">
+                                        <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+                                    </div>
+
+                                    <div class="product__hidden-sum">Итого: <strong>1 499 ₽</strong></div>
+
+                                    <button class="product__hidden-button selected">
+                                        <span>Добавить в корзину</span>
+                                        <img src="/css/images/content/products/Add.svg" alt="Добавить в корзину">
+                                    </button>
+                                    <button class="product__hidden-button">
+                                        <span>Купить в 1 клик</span>
+                                        <img src="/css/images/content/products/Click.svg" alt="Добавить в корзину">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product__image">
+                                    <a href="#" class="product__title-link"><img src="/images/content/products/Rectangle 38 (1).png" alt=""></a>
+                                </div>
+                                <div class="product__rating">
+                                    <div class="product__rating-top" style="width: 60%"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                    <div class="product__rating-bottom"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                    <span class="product__rating-value">3</span>
+                                </div>
+                                <div class="product__title">
+                                    <a href="#" class="product__title-link">
+                                        Мойка комп. HARTE 4568 (680х480мм) Серый 310 овальная
+                                    </a>
+                                </div>
+                                <div class="product__vcode">
+                                    Артикул: 10008698
+                                </div>
+                                <div class="product__cart">
+                                    <div class="product__price">
+                                        <div class="product__price-old">5 899 ₽</div>
+                                        <div class="product__price-new"><strong>3 156 ₽</strong></div>
+                                    </div>
+                                    <div class="product__add">
+                                        <button title="Добавить товар в корзину"><img src="/images/content/products/Add.svg" alt="Добавить в корзину"></button>
+                                    </div>
+                                </div>
+                                <div class="product__hidden">
+                                    <div class="number-input">
+                                        <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+                                        <input class="quantity" min="1" name="quantity" value="1" type="number">
+                                        <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+                                    </div>
+
+                                    <div class="product__hidden-sum">Итого: <strong>1 499 ₽</strong></div>
+
+                                    <button class="product__hidden-button selected">
+                                        <span>Добавить в корзину</span>
+                                        <img src="/css/images/content/products/Add.svg" alt="Добавить в корзину">
+                                    </button>
+                                    <button class="product__hidden-button">
+                                        <span>Купить в 1 клик</span>
+                                        <img src="/css/images/content/products/Click.svg" alt="Добавить в корзину">
+                                    </button>
+                                </div>
+
+                            </div>
+                            <div class="product disabled">
+                                <div class="product__image">
+                                    <a href="#" class="product__title-link"><img src="/images/content/products/Rectangle 38 (2).png" alt=""></a>
+                                </div>
+                                <div class="product__rating">
+                                    <div class="product__rating-top" style="width: 60%"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                    <div class="product__rating-bottom"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                    <span class="product__rating-value">3</span>
+                                </div>
+                                <div class="product__title">
+                                    <a href="#" class="product__title-link">
+                                        Смеситель GranFest QUARZ (GF-Z3323) УТКА D-35mm
+                                    </a>
+                                </div>
+                                <div class="product__vcode">
+                                    Артикул: 10008698
+                                </div>
+                                <div class="product__cart">
+                                    <div class="product__price">
+                                        Нет в наличии
+                                    </div>
+                                    <div class="product__add">
+                                        <button title="Нет в наличии"><img src="/css/images/content/products/Non.svg" alt="Нет в наличии"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product disabled">
+                                <div class="product__image">
+                                    <a href="#" class="product__title-link"><img src="/images/content/products/Rectangle 38 (2).png" alt=""></a>
+                                </div>
+                                <div class="product__rating">
+                                    <div class="product__rating-top" style="width: 60%"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                    <div class="product__rating-bottom"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                    <span class="product__rating-value">3</span>
+                                </div>
+                                <div class="product__title">
+                                    <a href="#" class="product__title-link">
+                                        Смеситель GranFest QUARZ (GF-Z3323) УТКА D-35mm
+                                    </a>
+                                </div>
+                                <div class="product__vcode">
+                                    Артикул: 10008698
+                                </div>
+                                <div class="product__cart">
+                                    <div class="product__price">
+                                        Нет в наличии
+                                    </div>
+                                    <div class="product__add">
+                                        <button title="Нет в наличии"><img src="/css/images/content/products/Non.svg" alt="Нет в наличии"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product disabled">
+                                <div class="product__image">
+                                    <a href="#" class="product__title-link"><img src="/images/content/products/Rectangle 38 (2).png" alt=""></a>
+                                </div>
+                                <div class="product__rating">
+                                    <div class="product__rating-top" style="width: 60%"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                    <div class="product__rating-bottom"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                    <span class="product__rating-value">3</span>
+                                </div>
+                                <div class="product__title">
+                                    <a href="#" class="product__title-link">
+                                        Смеситель GranFest QUARZ (GF-Z3323) УТКА D-35mm
+                                    </a>
+                                </div>
+                                <div class="product__vcode">
+                                    Артикул: 10008698
+                                </div>
+                                <div class="product__cart">
+                                    <div class="product__price">
+                                        Нет в наличии
+                                    </div>
+                                    <div class="product__add">
+                                        <button title="Нет в наличии"><img src="/css/images/content/products/Non.svg" alt="Нет в наличии"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Компонент пагинации -->
+
+                    <nav aria-label="Pagination">
+                        <ul class="pagination">
+                            <li class="pagination-previous disabled">Назад</li>
+                            <li class="current">1</li>
+                            <li><a href="#" aria-label="Page 2">2</a></li>
+                            <li><a href="#" aria-label="Page 3">3</a></li>
+                            <li><a href="#" aria-label="Page 4">4</a></li>
+                            <li class="ellipsis" aria-hidden="true"></li>
+                            <li><a href="#" aria-label="Page 12">12</a></li>
+                            <li class="pagination-next"><a href="#" aria-label="Next page">Вперёд</a></li>
+                        </ul>
+                    </nav>
+                    
+                </div>
+            </div>
+            
+                    <!-- / конец контента -->
+
+                </div>
+            </div>
+            
+        </main>
+        <!-- / конец контентной части -->
+
+
+
+        <!-- Футер / версия от 12,03,20 / актуальная на битриксе -->
+        <footer>
+            <div class="footer__block">
+                <div class="container">
+                    <div class="subscribe__block">
+                        <div class="subscribe__block-text large-6">
+                            <img src="/images/footer/plane.png" alt="Plane">
+                            <span>Подпишитесь на рассылку, чтобы быть в курсе акций и спецпредложений</span>
+                        </div>
+                        <div class="input large-6">
+                            <form class="input__form" action="">
+                                <input type="email" placeholder="Введите e-mail..." name="subscribe" autocomplete="off">
+                                <button type="submit">Подписаться</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__block">
+                <div class="container">
+                    <div class="social__block">
+                        <div class="social__links large-6">
+                            Мы в соцсетях:
+                            <a href="#" class="social__links-link" title="Instagram"><i class="icon footer-instagram"></i></a>
+                        </div>
+                        <div class="information large-6">
+                            <div class="information__address">
+                                <i class="icon footer-address"></i>
+                                <div class="information__text">
+                                    г. Якутск, Автодорожная, 1
+                                </div>
+                            </div>
+                            <div class="information__numbers">
+                                <ul class="dropdown menu" data-dropdown-menu>
+                                    <li>
+                                        <a href="#">
+                                            <i class="icon footer-numbers"></i>+7 (4112) 47‒33‒33 (единая справочная)<i class="icon footer-dropdown"></i>
+                                        </a>
+                                        <ul class="menu">
+                                            <li><a href="#">+7 (4112) 47‒33‒33 (единая справочная)</a></li>
+                                            <li><a href="#">+7 (4112) 47‒33‒33 (единая справочная)</a></li>
+                                            <li><a href="#">+7 (4112) 47‒33‒33 (единая справочная)</a></li>
+                                           
+                                        </ul>
+                                    </li>
+                                  </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__block">
+                <div class="container">
+                    <div class="navigation">
+                        <div class="navigation__block large-3">
+                            <div class="navigation__block-title">
+                                Каталог товаров
+                            </div>
+                            <ul class="navigation__list">
+                                <li class="navigation__list-item"><a href="#">Кровля</a></li>
+                                <li class="navigation__list-item"><a href="#">Фасад</a></li>
+                                <li class="navigation__list-item"><a href="#">Плитка</a></li>
+                                <li class="navigation__list-item"><a href="#">Двери</a></li>
+                                <li class="navigation__list-item"><a href="#">Сантехника</a></li>
+                                <li class="navigation__list-item"><a href="#">Лако-красочные материалы</a></li>
+                                <li class="navigation__list-item"><a href="#">Линолиум</a></li>
+                                <li class="navigation__list-item"><a href="#">Другие товары</a></li>
+                            </ul>
+                        </div>
+                        <div class="navigation__block large-3">
+                            <div class="navigation__block-title">
+                                О компании
+                            </div>
+                            <ul class="navigation__list">
+                                <li class="navigation__list-item"><a href="#">О компании</a></li>
+                                <li class="navigation__list-item"><a href="#">Вакансии</a></li>
+                                <li class="navigation__list-item"><a href="#">Контакты</a></li>
+                                <li class="navigation__list-item"><a href="#">Новости</a></li>
+                                <li class="navigation__list-item"><a href="#">Магазины</a></li>
+                            </ul>
+                        </div>
+                        <div class="navigation__block large-3">
+                            <div class="navigation__block-title">
+                                Покупателям
+                            </div>
+                            <ul class="navigation__list">
+                                <li class="navigation__list-item"><a href="#">Личный кабинет покупателя</a></li>
+                                <li class="navigation__list-item"><a href="#">Доставка</a></li>
+                                <li class="navigation__list-item"><a href="#">Обмен/возврат</a></li>
+                                <li class="navigation__list-item"><a href="#">Пользовательское соглашение</a></li>
+                                <li class="navigation__list-item"><a href="#">Политика конфиденциальности</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__block">
+                <div class="container">
+                    <div class="search__block">
+                        <div class="input large-6">
+                            <form class="input__form" action="">
+                                <input type="email" placeholder="Поиск по каталогу среди товаров и фирм" name="subscribe" autocomplete="off">
+                                <button type="submit">Поиск</button>
+                            </form>
+                        </div>
+                        <div class="search__block-text large-6">
+                            Остались вопросы? Вы можете&nbsp;<a href="#" class="search__block-link">написать нам</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__block">
+                <div class="container">
+                    <div class="copyright__block">
+                        <div class="ooo">
+                            <div class="sitemap">
+                                <a href="#" class="sitemap__link">
+                                    <i class="icon footer-sitemap"></i>
+                                    Карта сайта
+                                </a>
+                            </div>
+                            <div class="ooo__text">© 2020 ООО “МеталлТорг”</div>
+                        </div>
+                        <div class="studio">
+                            <span class="studio__text">Дизайн и разработка</span>
+                            <a href="#" class="studio__link">
+                                <img src="/images/footer/Platforma.svg" alt="Платформа" class="studio__images">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- / конец футера -->
+    </div>
+
+    <!-- Подключение скриптов -->
+    <!-- jQuery 3.4.1 -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <!-- <script src="/js/jquery.inputmask.min.js"></script> -->
+    <!-- Compressed JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.1/dist/js/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+
+		$("#catalogMenu").click(function() {
+			$("#overlay").toggleClass('on');
+		});
+
+		$(document).mouseup(function (e){ // событие клика по веб-документу
+			var div2 = $(".vertical.medium-horizontal.menu.dropdown"); // тут указываем ID элемента
+				if (!div2.is(e.target) // если клик был не по нашему блоку
+					&& div2.has(e.target).length === 0) { // и не по его дочерним элементам
+					$(".is-dropdown-submenu-parent.opens-right").removeClass('is-active').attr("data-is-click", "false");
+					$(".vertical.menu.submenu.is-dropdown-submenu.first-sub.dropdown").removeClass('js-dropdown-active');
+				}
+
+			var div = $(".catalog"); // тут указываем ID элемента
+			var div3 = $("#dropdown-auth"); // тут указываем ID элемента
+			
+			// $(".catalog__link").click(function() {
+			// 	if ( $("#overlay").hasClass('on') ){
+			// 		$("#overlay").removeClass('on');
+			// 	} else {
+			// 		$("#overlay").addClass('on');
+			// 	}
+			// });
+			if (!div.is(e.target) // если клик был не по нашему блоку
+				&& div.has(e.target).length === 0) { // и не по его дочерним элементам
+				$("#overlay").removeClass('on');
+				}
+			// if (!div3.is(e.target) // если клик был не по нашему блоку
+			// 	&& div3.has(e.target).length === 0) { // и не по его дочерним элементам
+			// 		$('#dropdown-auth').foundation('close');
+			// 	}
+        });
+        
+        // раскрывающийся список
+        $('.more-cats').click(function(){
+            $(this).text($(this).text() == 'Свернуть' ? 'Все подкатегории' : 'Свернуть');
+            $(this).toggleClass('up');
+        });
+
+        //slider price
+        $(function(){
+
+            $( "#slider-range" ).slider({
+                range: true,
+                min: 0,
+                max: 1000,
+                values: [ 0, 1000 ],
+                slide: function( event, ui ) {
+                    $( ".price__1" ).val(ui.values[ 0 ]).text(ui.values[ 0 ]);
+                    $( ".price__2" ).val(ui.values[ 1 ]).text(ui.values[ 1 ]);
+                }
+            });
+            $( ".price__1" ).val($( "#slider-range" ).slider( "values", 0 )).text($( "#slider-range" ).slider( "values", 0 ));
+            $( ".price__2" ).val($( "#slider-range" ).slider( "values", 1 )).text($( "#slider-range" ).slider( "values", 1 ));
+
+        });
+
+        //input mask
+        // $(document).ready(function(){
+        //     $('.quantity').inputmask(); //specifying options
+        // });
+      </script>
+</body>
+</html>

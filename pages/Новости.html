@@ -1,0 +1,707 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="windows1251"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новости</title>
+    <!-- Compressed CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.1/dist/css/foundation.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.1/dist/css/foundation-float.min.css">
+
+    <link rel="stylesheet" href="../css/foundation-icons/foundation-icons.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+    <div id="overlay"></div>
+
+    <!-- Главный блок (необязательно) -->
+    <div class="main">
+        <!-- Блок хедера, можно копипастить  -->
+        <!-- версия от 12,03 / не будет меняться / актуальная на битриксе -->
+        <header class="header">
+            <div class="header__top">
+                <div class="container header__top-block">
+                    <div class="name">Интернет-магазин ООО “МеталлТорг”</div>
+                    <div class="information">
+                        <div class="information__address">
+                            <i class="icon address"></i>
+                            <div class="information__text">
+                                г. Якутск, Автодорожная, 1
+                            </div>
+                        </div>
+                        <div class="information__instagram">
+                            <i class="icon instagram"></i>
+                            <div class="information__text">
+                                @metalltorg_ykt
+                            </div>
+                        </div>
+                        <div class="information__numbers">
+                            <ul class="dropdown menu" data-dropdown-menu>
+                                <li>
+                                    <a href="#">
+                                        <i class="icon numbers"></i>+7 (4112) 47‒33‒33 (единая справочная)<i class="icon dropdown"></i>
+                                    </a>
+                                    <ul class="menu">
+                                        <li><a href="#">+7 (4112) 47‒33‒33 (единая справочная)</a></li>
+                                        <li><a href="#">+7 (4112) 47‒33‒33 (единая справочная)</a></li>
+                                        <li><a href="#">+7 (4112) 47‒33‒33 (единая справочная)</a></li>
+                                       
+                                    </ul>
+                                </li>
+                              </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__center">
+                <div class="container header__center-block">
+                    <div class="header__logo g-3">
+                        <a href="#" class="header__logo-link">
+                            <img src="/images/header/logo.svg" alt="МеталлТорг">
+                        </a>
+                    </div>
+                    <div class="header__nav">
+                        <ul class="dropdown menu header__menu" data-dropdown-menu>
+                            <li class="header__menu-link"><a href="#">Новости</a></li>
+                            <li class="header__menu-link">
+                                <a href="#">О компании<i class="icon dropdown"></i></a>
+                                <ul class="menu">
+                                    <li><a href="#">О компании</a></li>
+                                    <li><a href="#">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li class="header__menu-link"><a href="#">Вакансии</a></li>
+                            <li class="header__menu-link"><a href="#">Контакты</a></li>
+                            <li class="header__menu-link">
+                                <a href="#">Покупателям <i class="icon dropdown"></i></a>
+                                <ul class="menu">
+                                    <li><a href="#">Личный кабинет покупателя</a></li>
+                                    <li><a href="#">Доставка</a></li>
+                                    <li><a href="#">Обмен/возврат</a></li>
+                                    <li><a href="#">Пользовательские соглашения</a></li>
+                                    <li><a href="#">Политика конфиденциальности</a></li>
+                                </ul>
+                            </li>
+                          </ul>
+                    </div>
+                    <div class="header__auth">
+                        <div class="header__auth-login">
+                            <a href="#"><i class="fi-torso" style="margin-right: 10px;"></i> Вход</a>
+                        </div>
+                        <div class="header__auth-register">
+                            <a href="#">Регистрация</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <div class="container header__bottom-block">
+                    <div class="catalog">
+                        <ul class="vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown" data-click-open="true" data-disable-hover="true" data-close-on-click-inside="true">
+                            <li>
+                                <a href="#" class="catalog__link" id="catalogMenu">
+                                    <i class="icon burger"></i>
+                                    Каталог товаров
+                                    <i class="icon dropdown-white"></i>
+                                </a>
+                                <ul class="vertical menu" data-responsive-menu="drilldown medium-dropdown"  data-disable-hover="false">
+                                    <li>
+                                        <a href="#" class="catalog__link">Плитка<i class="icon dropdown-horizontal"></i></a>
+                                        <ul class="vertical menu">
+                                            <div class="menu__header">
+                                                <h4>Плитка</h4>
+                                            </div>
+                                            <div class="menu__content">
+                                                <li><a href="#">Плитка</a></li>
+                                                <li><a href="#">Керамогранит</a></li>
+                                                <li><a href="#">Мозаика</a></li>
+                                                <li><a href="#">Затирки для швов плитки</a></li>
+                                                <li><a href="#">Клеи и средства для укладки плитки</a></li>
+                                                <li><a href="#">Плитка</a></li>
+                                                <li><a href="#">Керамогранит</a></li>
+                                                <li><a href="#">Мозаика</a></li>
+                                                <li><a href="#">Затирки для швов плитки</a></li>
+                                                <li><a href="#">Клеи и средства для укладки плитки</a></li>
+                                                <li><a href="#">Плитка</a></li>
+                                                <li><a href="#">Керамогранит</a></li>
+                                                <li><a href="#">Мозаика</a></li>
+                                                <li><a href="#">Затирки для швов плитки</a></li>
+                                                <li><a href="#">Клеи и средства для укладки плитки</a></li>
+                                            </div>
+                                            <div class="menu__images">
+                                                <img src="/images/header/menu/plit.png" alt="Плитка">
+                                            </div>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="catalog__link">Кровля<i class="icon dropdown-horizontal"></i></a>
+                                        <ul class="vertical menu">
+                                            <div class="menu__header">
+                                                <h4>Кровля</h4>
+                                            </div>
+                                            <div class="menu__content">
+                                                <li><a href="#">Плитка</a></li>
+                                                <li><a href="#">Керамогранит</a></li>
+                                                <li><a href="#">Мозаика</a></li>
+                                                <li><a href="#">Затирки для швов плитки</a></li>
+                                                <li><a href="#">Клеи и средства для укладки плитки</a></li>
+                                                <li><a href="#">Плитка</a></li>
+                                                <li><a href="#">Керамогранит</a></li>
+                                                <li><a href="#">Мозаика</a></li>
+                                                <li><a href="#">Затирки для швов плитки</a></li>
+                                                <li><a href="#">Клеи и средства для укладки плитки</a></li>
+                                                <li><a href="#">Плитка</a></li>
+                                                <li><a href="#">Керамогранит</a></li>
+                                                <li><a href="#">Мозаика</a></li>
+                                                <li><a href="#">Затирки для швов плитки</a></li>
+                                                <li><a href="#">Клеи и средства для укладки плитки</a></li>
+                                            </div>
+                                            <div class="menu__images">
+                                                <img src="/images/header/menu/plit.png" alt="Плитка">
+                                            </div>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Фасад</a></li>
+                                    <li><a href="#">Двери</a></li>
+                                    <li><a href="#">Сантехника</a></li>
+                                    <li><a href="#">Лако-красочные материалы</a></li>
+                                    <li><a href="#">Ленолиум</a></li>
+                                    <li><a href="#">Санфаянс</a></li>
+                                    <li><a href="#">Другие товары</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="search">
+                        <form action="" class="search__form">
+                            <input type="text" class="search__form-input" placeholder="Поиск по каталогу среди товаров и фирм...">
+                            <button type="submit" class="search__form-button"><i class="icon search"></i></button>
+                        </form>
+                    </div>
+                    <div class="widget">
+                        <div class="widget__block">
+                            <a href="#" class="widget__block-link">
+                                <i class="icon union"></i>
+                                Сравнение
+                                <span>(0)</span>
+                            </a>
+                        </div>
+                        <div class="widget__block">
+                            <a href="#" class="widget__block-link">
+                                <i class="icon favorite"></i>
+                                Избранное
+                                <span>(0)</span>
+                            </a>
+                        </div>
+                        <div class="widget__block">
+                            <a href="#" class="widget__block-link">
+                                <i class="icon cart"></i>
+                                Корзина
+                                <span>(0)</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- / конец хедера -->
+
+        <!-- Хлебные крошки -->
+
+        <div class="breadcrumb" aria-label="You are here:" role="navigation">
+            <div class="container">
+                <ul class="breadcrumbs">
+                    <li><a href="#">Главная</a></li>
+                    <li>Новости</li>
+                  </ul>
+            </div>
+        </div>
+        <!-- / Хлебные крошки -->
+
+        <!-- Контентная часть -->
+        <main>
+            <div class="container">
+                <div class="page__header">
+
+                    <!-- Начало контента -->
+
+                    <h1 class="page__title">Новости</h1>
+
+                </div>
+                
+                <div class="content pdt0">
+
+                    <div class="news__main">
+                        <div class="news__main-image">
+                            <a href="#">
+                                <img src="/css/images/content/news/Main_News.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="news__main-content">
+                            <div class="news__main-date">
+                                4 февраля
+                            </div>
+                            <div class="news__main-title">
+                                <a href="#">Как выбрать кровлю для частного дома?</a>
+                            </div>
+                            <div class="news__main-text">
+                                Выбираем и сравниваем материалы подходящие для нашей якутской зимы. Акция начнется 10 февраля текущего года и продолжится до 10 октября
+                            </div>
+                            <div class="news__main-more">
+                                <a href="#" class="news__main-link">
+                                    Узнать больше
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="news__block mg-page">
+                        <div class="news__item">
+                            <div class="news__item-image">
+                                <a href="#">
+                                    <img src="/css/images/content/news/News_1.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="news__item-block">
+                                <div class="news__item-date">
+                                    4 февраля
+                                </div>
+                                <div class="news__item-title">
+                                    <a href="#" class="news__item-link">
+                                        Топ-3 теплоизоляционных материалов для фасада
+                                    </a>
+                                </div>
+                                <div class="news__item-content">
+                                    Акция начнется 10 сентября текущего года и продолжится до 10 октября
+                                </div>    
+                            </div>
+                        </div>
+                        <div class="news__item">
+                            <div class="news__item-image">
+                                <a href="#">
+                                    <img src="/css/images/content/news/News_2.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="news__item-block">
+                                <div class="news__item-date">
+                                    30 января
+                                </div>
+                                <div class="news__item-title">
+                                    <a href="#" class="news__item-link">
+                                        Акция на штукатурку Knauf при покупке от 4-х упаковок 15 кг.
+                                    </a>
+                                </div>
+                                <div class="news__item-content">
+                                    Акция начнется 10 сентября текущего года и продолжится до 10 октября
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news__item">
+                            <div class="news__item-image">
+                                <a href="#">
+                                    <img src="/css/images/content/news/News_3.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="news__item-block">
+                                <div class="news__item-date">
+                                    4 февраля
+                                </div>
+                                <div class="news__item-title">
+                                    <a href="#" class="news__item-link">
+                                        Топ-3 теплоизоляционных материалов для фасада вашего дома
+                                    </a>
+                                </div>
+                                <div class="news__item-content">
+                                    Акция начнется 10 сентября текущего года и продолжится до 10 октября
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news__item">
+                            <div class="news__item-image">
+                                <a href="#">
+                                    <img src="/css/images/content/news/News_4.png" alt="">
+                                </a>
+                            </div>
+                            <div class="news__item-block">
+                                <div class="news__item-date">
+                                    16 декабря 2019
+                                </div>
+                                <div class="news__item-title">
+                                    <a href="#" class="news__item-link">
+                                        Акция на штукатурку Knauf при покупке от 4-х упаковок 15 кг.
+                                    </a>
+                                </div>
+                                <div class="news__item-content">
+                                    Акция начнется 10 сентября текущего года и продолжится до 10 октября
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news__item">
+                            <div class="news__item-image">
+                                <a href="#">
+                                    <img src="/css/images/content/news/News_5.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="news__item-block">
+                                <div class="news__item-date">
+                                    4 февраля
+                                </div>
+                                <div class="news__item-title">
+                                    <a href="#" class="news__item-link">
+                                        Топ-3 теплоизоляционных материалов для фасада
+                                    </a>
+                                </div>
+                                <div class="news__item-content">
+                                    Акция начнется 10 сентября текущего года и продолжится до 10 октября
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news__item">
+                            <div class="news__item-image">
+                                <a href="#">
+                                    <img src="/css/images/content/news/News_6.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="news__item-block">
+                                <div class="news__item-date">
+                                    30 января
+                                </div>
+                                <div class="news__item-title">
+                                    <a href="#" class="news__item-link">
+                                        Акция на штукатурку Knauf при покупке от 4-х упаковок 15 кг.
+                                    </a>
+                                </div>
+                                <div class="news__item-content">
+                                    Акция начнется 10 сентября текущего года и продолжится до 10 октября
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news__item">
+                            <div class="news__item-image">
+                                <a href="#">
+                                    <img src="/css/images/content/news/News_7.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="news__item-block">
+                                <div class="news__item-date">
+                                    4 февраля
+                                </div>
+                                <div class="news__item-title">
+                                    <a href="#" class="news__item-link">
+                                        Топ-3 теплоизоляционных материалов для фасада вашего дома
+                                    </a>
+                                </div>
+                                <div class="news__item-content">
+                                    Акция начнется 10 сентября текущего года и продолжится до 10 октября
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news__item">
+                            <div class="news__item-image">
+                                <a href="#">
+                                    <img src="/css/images/content/news/News_8.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="news__item-block">
+                                <div class="news__item-date">
+                                    16 декабря 2019
+                                </div>
+                                <div class="news__item-title">
+                                    <a href="#" class="news__item-link">
+                                        Акция на штукатурку Knauf при покупке от 4-х упаковок 15 кг.
+                                    </a>
+                                </div>
+                                <div class="news__item-content">
+                                    Акция начнется 10 сентября текущего года и продолжится до 10 октября
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news__item">
+                            <div class="news__item-image">
+                                <a href="#">
+                                    <img src="/css/images/content/news/News_9.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="news__item-block">
+                                <div class="news__item-date">
+                                    4 февраля
+                                </div>
+                                <div class="news__item-title">
+                                    <a href="#" class="news__item-link">
+                                        Топ-3 теплоизоляционных материалов для фасада
+                                    </a>
+                                </div>
+                                <div class="news__item-content">
+                                    Акция начнется 10 сентября текущего года и продолжится до 10 октября
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news__item">
+                            <div class="news__item-image">
+                                <a href="#">
+                                    <img src="/css/images/content/news/News_10.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="news__item-block">
+                                <div class="news__item-date">
+                                    30 января
+                                </div>
+                                <div class="news__item-title">
+                                    <a href="#" class="news__item-link">
+                                        Акция на штукатурку Knauf при покупке от 4-х упаковок 15 кг.
+                                    </a>
+                                </div>
+                                <div class="news__item-content">
+                                    Акция начнется 10 сентября текущего года и продолжится до 10 октября
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news__item">
+                            <div class="news__item-image">
+                                <a href="#">
+                                    <img src="/css/images/content/news/News_11.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="news__item-block">
+                                <div class="news__item-date">
+                                    4 февраля
+                                </div>
+                                <div class="news__item-title">
+                                    <a href="#" class="news__item-link">
+                                        Топ-3 теплоизоляционных материалов для фасада вашего дома
+                                    </a>
+                                </div>
+                                <div class="news__item-content">
+                                    Акция начнется 10 сентября текущего года и продолжится до 10 октября
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news__item">
+                            <div class="news__item-image">
+                                <a href="#">
+                                    <img src="/css/images/content/news/News_1.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="news__item-block">
+                                <div class="news__item-date">
+                                    16 декабря 2019
+                                </div>
+                                <div class="news__item-title">
+                                    <a href="#" class="news__item-link">
+                                        Акция на штукатурку Knauf при покупке от 4-х упаковок 15 кг.
+                                    </a>
+                                </div>
+                                <div class="news__item-content">
+                                    Акция начнется 10 сентября текущего года и продолжится до 10 октября
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Компонент пагинации -->
+
+                    <nav aria-label="Pagination">
+                        <ul class="pagination">
+                            <li class="pagination-previous disabled">Назад</li>
+                            <li class="current">1</li>
+                            <li><a href="#" aria-label="Page 2">2</a></li>
+                            <li><a href="#" aria-label="Page 3">3</a></li>
+                            <li><a href="#" aria-label="Page 4">4</a></li>
+                            <li class="ellipsis" aria-hidden="true"></li>
+                            <li><a href="#" aria-label="Page 12">12</a></li>
+                            <li class="pagination-next"><a href="#" aria-label="Next page">Вперёд</a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+
+                    <!-- / конец контента -->
+
+                </div>
+            </div>
+            
+        </main>
+        <!-- / конец контентной части -->
+
+
+
+        <!-- Футер / версия от 12,03,20 / актуальная на битриксе -->
+        <footer>
+            <div class="footer__block">
+                <div class="container">
+                    <div class="subscribe__block">
+                        <div class="subscribe__block-text large-6">
+                            <img src="/images/footer/plane.png" alt="Plane">
+                            <span>Подпишитесь на рассылку, чтобы быть в курсе акций и спецпредложений</span>
+                        </div>
+                        <div class="input large-6">
+                            <form class="input__form" action="">
+                                <input type="email" placeholder="Введите e-mail..." name="subscribe" autocomplete="off">
+                                <button type="submit">Подписаться</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__block">
+                <div class="container">
+                    <div class="social__block">
+                        <div class="social__links large-6">
+                            Мы в соцсетях:
+                            <a href="#" class="social__links-link" title="Instagram"><i class="icon footer-instagram"></i></a>
+                        </div>
+                        <div class="information large-6">
+                            <div class="information__address">
+                                <i class="icon footer-address"></i>
+                                <div class="information__text">
+                                    г. Якутск, Автодорожная, 1
+                                </div>
+                            </div>
+                            <div class="information__numbers">
+                                <ul class="dropdown menu" data-dropdown-menu>
+                                    <li>
+                                        <a href="#">
+                                            <i class="icon footer-numbers"></i>+7 (4112) 47‒33‒33 (единая справочная)<i class="icon footer-dropdown"></i>
+                                        </a>
+                                        <ul class="menu">
+                                            <li><a href="#">+7 (4112) 47‒33‒33 (единая справочная)</a></li>
+                                            <li><a href="#">+7 (4112) 47‒33‒33 (единая справочная)</a></li>
+                                            <li><a href="#">+7 (4112) 47‒33‒33 (единая справочная)</a></li>
+                                           
+                                        </ul>
+                                    </li>
+                                  </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__block">
+                <div class="container">
+                    <div class="navigation">
+                        <div class="navigation__block large-3">
+                            <div class="navigation__block-title">
+                                Каталог товаров
+                            </div>
+                            <ul class="navigation__list">
+                                <li class="navigation__list-item"><a href="#">Кровля</a></li>
+                                <li class="navigation__list-item"><a href="#">Фасад</a></li>
+                                <li class="navigation__list-item"><a href="#">Плитка</a></li>
+                                <li class="navigation__list-item"><a href="#">Двери</a></li>
+                                <li class="navigation__list-item"><a href="#">Сантехника</a></li>
+                                <li class="navigation__list-item"><a href="#">Лако-красочные материалы</a></li>
+                                <li class="navigation__list-item"><a href="#">Линолиум</a></li>
+                                <li class="navigation__list-item"><a href="#">Другие товары</a></li>
+                            </ul>
+                        </div>
+                        <div class="navigation__block large-3">
+                            <div class="navigation__block-title">
+                                О компании
+                            </div>
+                            <ul class="navigation__list">
+                                <li class="navigation__list-item"><a href="#">О компании</a></li>
+                                <li class="navigation__list-item"><a href="#">Вакансии</a></li>
+                                <li class="navigation__list-item"><a href="#">Контакты</a></li>
+                                <li class="navigation__list-item"><a href="#">Новости</a></li>
+                                <li class="navigation__list-item"><a href="#">Магазины</a></li>
+                            </ul>
+                        </div>
+                        <div class="navigation__block large-3">
+                            <div class="navigation__block-title">
+                                Покупателям
+                            </div>
+                            <ul class="navigation__list">
+                                <li class="navigation__list-item"><a href="#">Личный кабинет покупателя</a></li>
+                                <li class="navigation__list-item"><a href="#">Доставка</a></li>
+                                <li class="navigation__list-item"><a href="#">Обмен/возврат</a></li>
+                                <li class="navigation__list-item"><a href="#">Пользовательское соглашение</a></li>
+                                <li class="navigation__list-item"><a href="#">Политика конфиденциальности</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__block">
+                <div class="container">
+                    <div class="search__block">
+                        <div class="input large-6">
+                            <form class="input__form" action="">
+                                <input type="email" placeholder="Поиск по каталогу среди товаров и фирм" name="subscribe" autocomplete="off">
+                                <button type="submit">Поиск</button>
+                            </form>
+                        </div>
+                        <div class="search__block-text large-6">
+                            Остались вопросы? Вы можете&nbsp;<a href="#" class="search__block-link">написать нам</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__block">
+                <div class="container">
+                    <div class="copyright__block">
+                        <div class="ooo">
+                            <div class="sitemap">
+                                <a href="#" class="sitemap__link">
+                                    <i class="icon footer-sitemap"></i>
+                                    Карта сайта
+                                </a>
+                            </div>
+                            <div class="ooo__text">© 2020 ООО “МеталлТорг”</div>
+                        </div>
+                        <div class="studio">
+                            <span class="studio__text">Дизайн и разработка</span>
+                            <a href="#" class="studio__link">
+                                <img src="/images/footer/Platforma.svg" alt="Платформа" class="studio__images">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- / конец футера -->
+    </div>
+
+    <!-- Подключение скриптов -->
+    <!-- jQuery 3.4.1 -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- Compressed JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.1/dist/js/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+
+		$("#catalogMenu").click(function() {
+			$("#overlay").toggleClass('on');
+		});
+
+		$(document).mouseup(function (e){ // событие клика по веб-документу
+			var div2 = $(".vertical.medium-horizontal.menu.dropdown"); // тут указываем ID элемента
+				if (!div2.is(e.target) // если клик был не по нашему блоку
+					&& div2.has(e.target).length === 0) { // и не по его дочерним элементам
+					$(".is-dropdown-submenu-parent.opens-right").removeClass('is-active').attr("data-is-click", "false");
+					$(".vertical.menu.submenu.is-dropdown-submenu.first-sub.dropdown").removeClass('js-dropdown-active');
+				}
+
+			var div = $(".catalog"); // тут указываем ID элемента
+			var div3 = $("#dropdown-auth"); // тут указываем ID элемента
+			
+			// $(".catalog__link").click(function() {
+			// 	if ( $("#overlay").hasClass('on') ){
+			// 		$("#overlay").removeClass('on');
+			// 	} else {
+			// 		$("#overlay").addClass('on');
+			// 	}
+			// });
+			if (!div.is(e.target) // если клик был не по нашему блоку
+				&& div.has(e.target).length === 0) { // и не по его дочерним элементам
+				$("#overlay").removeClass('on');
+				}
+			if (!div3.is(e.target) // если клик был не по нашему блоку
+				&& div3.has(e.target).length === 0) { // и не по его дочерним элементам
+					$('#dropdown-auth').foundation('close');
+				}
+		});
+      </script>
+</body>
+</html>

@@ -1,38 +1,74 @@
 // настройка сетки
+$breakpoint-laptop: 1024px;
+$breakpoint-laptop-for-cards: 1136px;
+$breakpoint-tablet: 880px;
+$breakpoint-tablet-mini: 768px;
+$breakpoint-mobile-big: 640px;
+$breakpoint-mobile-middle: 592px;
+$breakpoint-mobile-middle-second: 500px;
+$breakpoint-mobile: 400px;
+$breakpoint-mobile-mini: 320px;
 
 .g-1 {
-    width: 96px;
+    width: 80px*1;
+    margin-right: 16px;
 }
 .g-2 {
-    width: 192px;
+    width: 80px*2;
+    margin-right: 16px;
 }
 .g-3 {
-    width: 288px;
+    width: 80px*3;
+    margin-right: 16px;
 }
 .g-4 {
-    width: 384px;
+    width: 80px*4;
+    margin-right: 16px;
 }
 .g-5 {
-    width: 480px;
+    width: 80px*5;
+    margin-right: 16px;
 }
 .g-6 {
-    width: 576px;
+    width: 80px*6;
+    margin-right: 16px;
 }
 .g-7 {
-    width: 672px;
+    width: 80px*7;
+    margin-right: 16px;
 }
 .g-8 {
-    width: 768px;
+    width: 80px*8;
+    margin-right: 16px;
 }
 .g-9 {
-    width: 864px;
+    width: 80px*9;
+    margin-right: 16px;
 }
 .g-10 {
-    width: 960px;
+    width: 80px*10;
+    margin-right: 16px;
 }
 .g-11 {
-    width: 1056px;
+    width: 80px*11;
+    margin-right: 16px;
 }
 .g-12 {
-    width: 1136px;
+    width: 80px*12;
+    margin-right: 16px;
+}
+
+.pdt0 {
+    padding-top: 0 !important;
+}
+
+.gp-33 {
+    width: 33%;
+}
+
+.mg-page {
+    margin-bottom: 84px;
+}
+.mg-32 {
+    margin-bottom: 32px;
 }

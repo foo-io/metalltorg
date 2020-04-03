@@ -1,18 +1,206 @@
 // настройки шрифтов
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-// хедер
-%font_headerTop {
-    font-family: Circe;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 22px;
+@font-face {
+    font-family: 'Tisa Sans Pro Black';
+    src: url('fonts/TisaSansPro-BlackItalic.eot');
+    src: local('Tisa Sans Pro Black Italic'), local('TisaSansPro-BlackItalic'),
+        url('fonts/TisaSansPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/TisaSansPro-BlackItalic.woff2') format('woff2'),
+        url('fonts/TisaSansPro-BlackItalic.woff') format('woff'),
+        url('fonts/TisaSansPro-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
 }
 
-%font_headerMenu {
-    font-family: Tisa Sans Pro;
+@font-face {
+    font-family: 'Tisa Sans Pro';
+    src: url('fonts/TisaSansPro-Bold.eot');
+    src: local('Tisa Sans Pro Bold'), local('TisaSansPro-Bold'),
+        url('fonts/TisaSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/TisaSansPro-Bold.woff2') format('woff2'),
+        url('fonts/TisaSansPro-Bold.woff') format('woff'),
+        url('fonts/TisaSansPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tisa Sans Pro Med';
+    src: url('fonts/TisaSansPro-MediumItalic.eot');
+    src: local('Tisa Sans Pro Medium Italic'), local('TisaSansPro-MediumItalic'),
+        url('fonts/TisaSansPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/TisaSansPro-MediumItalic.woff2') format('woff2'),
+        url('fonts/TisaSansPro-MediumItalic.woff') format('woff'),
+        url('fonts/fonts/TisaSansPro-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tisa Sans Pro ExtBd';
+    src: url('fonts/TisaSansPro-ExtraBoldItalic.eot');
+    src: local('Tisa Sans Pro Extra Bold Italic'), local('TisaSansPro-ExtraBoldItalic'),
+        url('fonts/TisaSansPro-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/TisaSansPro-ExtraBoldItalic.woff2') format('woff2'),
+        url('fonts/TisaSansPro-ExtraBoldItalic.woff') format('woff'),
+        url('fonts/TisaSansPro-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tisa Sans Pro';
+    src: url('fonts/TisaSansPro-BoldItalic.eot');
+    src: local('Tisa Sans Pro Bold Italic'), local('TisaSansPro-BoldItalic'),
+        url('fonts/TisaSansPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/TisaSansPro-BoldItalic.woff2') format('woff2'),
+        url('fonts/TisaSansPro-BoldItalic.woff') format('woff'),
+        url('fonts/TisaSansPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tisa Sans Pro';
+    src: url('fonts/TisaSansPro-LightItalic.eot');
+    src: local('Tisa Sans Pro Light Italic'), local('TisaSansPro-LightItalic'),
+        url('fonts/TisaSansPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/TisaSansPro-LightItalic.woff2') format('woff2'),
+        url('fonts/TisaSansPro-LightItalic.woff') format('woff'),
+        url('fonts/TisaSansPro-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tisa Sans Pro ExtBd';
+    src: url('fonts/TisaSansPro-ExtraBold.eot');
+    src: local('Tisa Sans Pro Extra Bold'), local('TisaSansPro-ExtraBold'),
+        url('fonts/TisaSansPro-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/TisaSansPro-ExtraBold.woff2') format('woff2'),
+        url('fonts/TisaSansPro-ExtraBold.woff') format('woff'),
+        url('fonts/TisaSansPro-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tisa Sans Pro Med';
+    src: url('fonts/TisaSansPro-Medium.eot');
+    src: local('Tisa Sans Pro Medium'), local('TisaSansPro-Medium'),
+        url('fonts/TisaSansPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/TisaSansPro-Medium.woff2') format('woff2'),
+        url('fonts/TisaSansPro-Medium.woff') format('woff'),
+        url('fonts/TisaSansPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tisa Sans Pro';
+    src: url('fonts/TisaSansPro-Black.eot');
+    src: local('Tisa Sans Pro Black'), local('TisaSansPro-Black'),
+        url('fonts/TisaSansPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('fonts/TisaSansPro-Black.woff2') format('woff2'),
+        url('fonts/TisaSansPro-Black.woff') format('woff'),
+        url('fonts/TisaSansPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tisa Sans Pro';
+    src: url('fonts/TisaSansPro-Regular.eot');
+    src: local('Tisa Sans Pro Regular'), local('TisaSansPro-Regular'),
+        url('fonts/TisaSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/TisaSansPro-Regular.woff2') format('woff2'),
+        url('fonts/TisaSansPro-Regular.woff') format('woff'),
+        url('fonts/TisaSansPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tisa Sans Pro ExtLt';
+    src: url('fonts/TisaSansPro-ExtraLightItalic.eot');
+    src: local('Tisa Sans Pro ExtLt Ita'), local('TisaSansPro-ExtraLightItalic'),
+        url('fonts/TisaSansPro-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/TisaSansPro-ExtraLightItalic.woff2') format('woff2'),
+        url('fonts/TisaSansPro-ExtraLightItalic.woff') format('woff'),
+        url('fonts/TisaSansPro-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tisa Sans Pro';
+    src: url('fonts/TisaSansPro-Light.eot');
+    src: local('Tisa Sans Pro Light'), local('TisaSansPro-Light'),
+        url('fonts/TisaSansPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/TisaSansPro-Light.woff2') format('woff2'),
+        url('fonts/TisaSansPro-Light.woff') format('woff'),
+        url('fonts/TisaSansPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tisa Sans Pro ExtLt';
+    src: url('fonts/TisaSansPro-ExtraLight.eot');
+    src: local('Tisa Sans Pro Extra Light'), local('TisaSansPro-ExtraLight'),
+        url('fonts/TisaSansPro-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('fonts/TisaSansPro-ExtraLight.woff2') format('woff2'),
+        url('fonts/TisaSansPro-ExtraLight.woff') format('woff'),
+        url('fonts/TisaSansPro-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tisa Sans Pro';
+    src: url('fonts/TisaSansPro-Italic.eot');
+    src: local('Tisa Sans Pro Italic'), local('TisaSansPro-Italic'),
+        url('fonts/TisaSansPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/TisaSansPro-Italic.woff2') format('woff2'),
+        url('fonts/TisaSansPro-Italic.woff') format('woff'),
+        url('fonts/TisaSansPro-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+// default font style
+%font_default {
+    font-family: 'Tisa Sans Pro';
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
     line-height: 18px;
+}
+
+// footer font style
+%font_footer {
+    font-family: 'Tisa Sans Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+// open sans font
+%font_opensans {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+%font_roboto {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
 }

@@ -1,9 +1,168 @@
 // Настройка палитры цветов
 
+
 // хедер
 $color__headerNav: #617588; // навигация
 $color__headerTop: #9FACBA; // верхняя панель
 $color__headerAuth: #B0CA1F; // авторизация
+$color__header: #00499A; // синяя полоска bg
+$color__headerWhite: #FFFFFF; // белый цвет
+$color__headerCatalog: #005CB8; // более яркая синяя
+
+$color__menuHover: #B0CA1F; // ховер для меню
+
+$color__widgetSpan: #449FFA; // цвет для спана
+
 
 // основы
 $color__border: #E9E9E9; // цвет бордера
+
+
+// footer
+$color__footer: #25282E;
+$color__footerText: #7D8491;
+$color__footerBorder: #383D46;
+
+$color__footerButton: #B0CA1F;
+$color__footerSitemap: #FFFFFF;
+$color__footerNavTitle: #FFFFFF;
+
+
+// content
+$color__contentHover: #B0CA1F;
+$color__contentBlockTitle: #3B4256;
+$color__contentBlockText: #8F8F8F;
+
+$color__contentCatBorder: #BACBD5;
+$color__contentCatAll: #B0CA1F;
+
+$color__rating: #8F8F8F;
+
+$color__product: #3B4256;
+$color__productCart: #B0CA1F;
+$color__productPriceOld: #EB5757;
+$color__productVcode: #A1ABB5;
+
+$color__newsDate: #A2A4AB;
+$color__newsLink: #3B4256;
+
+$color__pageH1: #3B4256;
+
+$color__breadcrumbsBg: #E8F0F9;
+$color__breadcrumbsText: #617588;
+$color__breadcrumbsAfter: #D5D5D5;
+
+$color__tabsBg: #F9F9F9;
+$color__tabsBorder: #E5E5E5;
+$color__tabsColor: #3B4256;
+$color__tabsHover: #B0CA1F;
+
+$color__authTitle: #617588;
+$color__authText: #828282;
+$color__authInputBg: #F9F9F9;
+$color__authInputBorder: #EEEEEE;
+$color__authSpanText: #B7B7B7;
+$color__authButtonBg: #B0CA1F;
+
+$color__sitemapTitle: #3B4256;
+$color__sitemapLink: #617588;
+
+$color__epageText: #617588;
+$color__epageLink: #B0CA1F;
+
+$color__staticTitle: #3B4256;
+$color__staticText: #333333;
+
+$color__contactsContentTop: #999999;
+$color__contactsContentBottom: #617588;
+$color__contactsContentLink: #B0CA1F;
+$color__contactCardBorder: #E9E9E9;
+
+$color__aboutBorder: #B6C9D6;
+$color__aboutCount: #3B4256;
+$color__aboutText: #617588;
+$color__aboutTable: #3B4256;
+$color__aboutTabsTitle: #B6C9D6;
+$color__aboutTabsTitleActive: #B0CA1F;
+$color__aboutTabsBg: #F7F7F7;
+
+// vacancies
+$color__vacAttBorder: #B6C9D6;
+$color__vacAttText: #536876;
+$color__vacText: #767A86;
+$color__vacNum: #617588;
+$color__vacBg: #F9F9F9;
+$color__vacCardBorder: #E9E9E9;
+$color__vacCardTitle: #3B4256;
+
+// personal
+// - orders
+$color__perActiveText: #B0CA1F;
+$color__perTabText: #202020;
+$color__perOrderTh: #999999;
+$color__perOrderBorder: #F7F8F9;
+$color__perOrderText: #3B4256;
+
+//news
+$color__newsMainDate: #C5C9D3;
+$color__newsTitle: #3B4256;
+
+//pagination
+$color__pagDisabled: #B6B6B6;
+$color__pagColor: #B0CA1F;
+$color__pagBorder: #E9E9E9;
+$color__pagNumbers: #B9B9B9;
+
+//back link
+$color__back: #B0CA1F;
+
+//news detailed
+$color__newsHeaderTitle: #FFFFFF;
+$color__newsHeaderDate: #D6D6D6;
+$color__newsHeaderShareBorder: #F1F1F1;
+$color__newsHeaderShareTitle: #8C8C8C;
+$color__newsContent: #595959;
+
+//������ �������
+$color__othersHover: #B0CA1F;
+$color__othersBorder: #617588;
+$color__othersDate: #919191;
+$color__othersLink: #3B4256;
+
+//catalogue
+$color__catCardTitle: #3B4256;
+$color__catCardText: #8F8F8F;
+$color__carCardMore: #B0CA1F;
+
+//subcats
+$color__subCardTitle: #3B4256;
+$color__subCardHover: #B0CA1F;
+
+//tags
+$color__tagsBorder: #DFE9EF;
+$color__tagsLink: #617588;
+$color__tagsHover: #B0CA1F;
+
+//selector
+$color__selectorBorder: #CFD9E4;
+$color__selectorActive: #B0CA1F;
+
+//sidebar
+$color__sideBorder: #DFE9EF;
+$color__sideTitle: #8F8F8F;
+$color__sideInputBg: #F8F8F8;
+$color__sideGreen: #B0CA1F;
+$color__sideText: #545A60;
+
+//slider price
+$color__sliderGreen: #B0CA1F;
+
+//fullcard
+$color__fTab: #FFF;
+$color__fTabsBg: transparent;
+$color__fTabsText: #333333;
+$color__fTabsGreen: #B0CA1F;
+
+//readmore
+$color__readmoreHover: red;
+$color__readmore: #B0CA1F;

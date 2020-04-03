@@ -1,28 +1,161 @@
 // настройка иконок
 .icon {
-    display: block;
+    display: inline-block;
 }
 i.address {
     width: 12px;
+    min-width: 12px;
     height: 17px;
-    background-image: url(/images/header/Location.svg);
+    background-image: url(images/header/Location.svg);
     background-repeat: no-repeat;
 }
 i.instagram {
     width: 18px;
+    min-width: 18px;
     height: 18px;
-    background-image: url(/images/header/Instagram.svg);
+    background-image: url(images/header/Instagram.svg);
     background-repeat: no-repeat;
 }
 i.numbers {
     width: 17px;
+    min-width: 17px;
     height: 17px;
-    background-image: url(/images/header/Call.svg);
+    background-image: url(images/header/Call.svg);
+    background-repeat: no-repeat;
+    margin-right: 12px;
+}
+i.burger {
+    width: 16px;
+    min-width: 16px;
+    height: 12px;
+    background-image: url(images/header/menu/Burger.svg);
+    background-repeat: no-repeat;
+    margin-right: 12px;
+}
+i.union {
+    width: 10px;
+    min-width: 10px;
+    height: 12px;
+    background-image: url(images/header/widget/Union.svg);
     background-repeat: no-repeat;
 }
-i.numbers {
-    width: 17px;
-    height: 17px;
-    background-image: url(/images/header/Auth.svg);
+i.favorite {
+    width: 18px;
+    min-width: 18px;
+    height: 14px;
+    background-image: url(images/header/widget/Favorite.svg);
     background-repeat: no-repeat;
+}
+i.cart {
+    width: 16px;
+    min-width: 16px;
+    height: 16px;
+    background-image: url(images/header/widget/Cart.svg);
+    background-repeat: no-repeat;
+}
+i.search {
+    width: 15px;
+    min-width: 15px;
+    height: 16px;
+    background-image: url(images/header/Search.svg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+i.dropdown {
+    width: 8px;
+    min-width: 8px;
+    height: 5px;
+    background-image: url(images/header/Dropdown.svg);
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+i.dropdown-white {
+    width: 8px;
+    min-width: 8px;
+    height: 5px;
+    background-image: url(images/header/Dropdown_white.svg);
+    background-repeat: no-repeat;
+    margin-left: auto;
+}
+i.dropdown-up {
+    width: 8px;
+    min-width: 8px;
+    height: 5px;
+    background-image: url(/css/images/content/aside/Dropdown_Up.svg);
+    background-repeat: no-repeat;
+    margin-left: auto;
+}
+i.dropdown-horizontal {
+    width: 6px;
+    min-width: 6px;
+    height: 10px;
+    background-image: url(images/header/menu/Dropdown_horizontal.svg);
+    background-repeat: no-repeat;
+    margin-left: auto;
+}
+.is-submenu-item a:hover>i.dropdown-horizontal,
+.is-submenu-item.is-active a>i.dropdown-horizontal {
+    width: 6px;
+    min-width: 6px;
+    height: 10px;
+    background-image: url(images/header/menu/Dropdown_horizontal_active.svg);
+    background-repeat: no-repeat;
+    margin-left: auto;
+}
+i.footer-address {
+    width: 10px;
+    min-width: 10px;
+    height: 14px;
+    background-image: url(images/footer/Location.svg);
+    background-repeat: no-repeat;
+}
+i.footer-instagram {
+    width: 14px;
+    min-width: 14px;
+    height: 14px;
+    background-image: url(images/footer/Instagram.svg);
+    background-repeat: no-repeat;
+}
+i.footer-numbers {
+    width: 15px;
+    min-width: 15px;
+    height: 15px;
+    background-image: url(images/footer/Phone.svg);
+    background-repeat: no-repeat;
+    margin-right: 12px;
+}
+i.footer-dropdown {
+    width: 10px;
+    min-width: 10px;
+    height: 6px;
+    background-image: url(images/footer/Dropdown.svg);
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+i.footer-sitemap {
+    width: 12px;
+    min-width: 12px;
+    height: 10px;
+    background-image: url(images/footer/Sitemap.svg);
+    background-repeat: no-repeat;
+    margin-right: 8px;
+}
+i.cancel {
+    width: 11px;
+    min-width: 11px;
+    height: 11px;
+    background-image: url(/css/images/content/aside/Cancel.svg);
+    background-repeat: no-repeat;
+    margin-right: 8px;
+}
+i.close {
+    width: 11px;
+    min-width: 11px;
+    height: 12px;
+    background-image: url(/css/images/content/aside/Cancel.svg);
+    background-repeat: no-repeat;
+    margin: 2px 2px;
 }

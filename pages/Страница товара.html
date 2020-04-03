@@ -1,0 +1,944 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="windows1251"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница товара</title>
+    <!-- Compressed CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.1/dist/css/foundation.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.1/dist/css/foundation-float.min.css">
+
+    <link rel="stylesheet" href="../css/foundation-icons/foundation-icons.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+</head>
+<body>
+    <div id="overlay"></div>
+
+    <!-- Главный блок (необязательно) -->
+    <div class="main">
+        <!-- Блок хедера, можно копипастить  -->
+        <!-- версия от 12,03 / не будет меняться / актуальная на битриксе -->
+        <header class="header">
+            <div class="header__top">
+                <div class="container header__top-block">
+                    <div class="name">Интернет-магазин ООО “МеталлТорг”</div>
+                    <div class="information">
+                        <div class="information__address">
+                            <i class="icon address"></i>
+                            <div class="information__text">
+                                г. Якутск, Автодорожная, 1
+                            </div>
+                        </div>
+                        <div class="information__instagram">
+                            <i class="icon instagram"></i>
+                            <div class="information__text">
+                                @metalltorg_ykt
+                            </div>
+                        </div>
+                        <div class="information__numbers">
+                            <ul class="dropdown menu" data-dropdown-menu>
+                                <li>
+                                    <a href="#">
+                                        <i class="icon numbers"></i>+7 (4112) 47‒33‒33 (единая справочная)<i class="icon dropdown"></i>
+                                    </a>
+                                    <ul class="menu">
+                                        <li><a href="#">+7 (4112) 47‒33‒33 (единая справочная)</a></li>
+                                        <li><a href="#">+7 (4112) 47‒33‒33 (единая справочная)</a></li>
+                                        <li><a href="#">+7 (4112) 47‒33‒33 (единая справочная)</a></li>
+                                       
+                                    </ul>
+                                </li>
+                              </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__center">
+                <div class="container header__center-block">
+                    <div class="header__logo g-3">
+                        <a href="#" class="header__logo-link">
+                            <img src="/images/header/logo.svg" alt="МеталлТорг">
+                        </a>
+                    </div>
+                    <div class="header__nav">
+                        <ul class="dropdown menu header__menu" data-dropdown-menu>
+                            <li class="header__menu-link"><a href="#">Новости</a></li>
+                            <li class="header__menu-link">
+                                <a href="#">О компании<i class="icon dropdown"></i></a>
+                                <ul class="menu">
+                                    <li><a href="#">О компании</a></li>
+                                    <li><a href="#">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li class="header__menu-link"><a href="#">Вакансии</a></li>
+                            <li class="header__menu-link"><a href="#">Контакты</a></li>
+                            <li class="header__menu-link">
+                                <a href="#">Покупателям <i class="icon dropdown"></i></a>
+                                <ul class="menu">
+                                    <li><a href="#">Личный кабинет покупателя</a></li>
+                                    <li><a href="#">Доставка</a></li>
+                                    <li><a href="#">Обмен/возврат</a></li>
+                                    <li><a href="#">Пользовательские соглашения</a></li>
+                                    <li><a href="#">Политика конфиденциальности</a></li>
+                                </ul>
+                            </li>
+                          </ul>
+                    </div>
+                    <div class="header__auth">
+                        <div class="header__auth-login">
+                            <a href="#"><i class="fi-torso" style="margin-right: 10px;"></i> Вход</a>
+                        </div>
+                        <div class="header__auth-register">
+                            <a href="#">Регистрация</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <div class="container header__bottom-block">
+                    <div class="catalog">
+                        <ul class="vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown" data-click-open="true" data-disable-hover="true" data-close-on-click-inside="true">
+                            <li>
+                                <a href="#" class="catalog__link" id="catalogMenu">
+                                    <i class="icon burger"></i>
+                                    Каталог товаров
+                                    <i class="icon dropdown-white"></i>
+                                </a>
+                                <ul class="vertical menu" data-responsive-menu="drilldown medium-dropdown"  data-disable-hover="false">
+                                    <li>
+                                        <a href="#" class="catalog__link">Плитка<i class="icon dropdown-horizontal"></i></a>
+                                        <ul class="vertical menu">
+                                            <div class="menu__header">
+                                                <h4>Плитка</h4>
+                                            </div>
+                                            <div class="menu__content">
+                                                <li><a href="#">Плитка</a></li>
+                                                <li><a href="#">Керамогранит</a></li>
+                                                <li><a href="#">Мозаика</a></li>
+                                                <li><a href="#">Затирки для швов плитки</a></li>
+                                                <li><a href="#">Клеи и средства для укладки плитки</a></li>
+                                                <li><a href="#">Плитка</a></li>
+                                                <li><a href="#">Керамогранит</a></li>
+                                                <li><a href="#">Мозаика</a></li>
+                                                <li><a href="#">Затирки для швов плитки</a></li>
+                                                <li><a href="#">Клеи и средства для укладки плитки</a></li>
+                                                <li><a href="#">Плитка</a></li>
+                                                <li><a href="#">Керамогранит</a></li>
+                                                <li><a href="#">Мозаика</a></li>
+                                                <li><a href="#">Затирки для швов плитки</a></li>
+                                                <li><a href="#">Клеи и средства для укладки плитки</a></li>
+                                            </div>
+                                            <div class="menu__images">
+                                                <img src="/images/header/menu/plit.png" alt="Плитка">
+                                            </div>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="catalog__link">Кровля<i class="icon dropdown-horizontal"></i></a>
+                                        <ul class="vertical menu">
+                                            <div class="menu__header">
+                                                <h4>Кровля</h4>
+                                            </div>
+                                            <div class="menu__content">
+                                                <li><a href="#">Плитка</a></li>
+                                                <li><a href="#">Керамогранит</a></li>
+                                                <li><a href="#">Мозаика</a></li>
+                                                <li><a href="#">Затирки для швов плитки</a></li>
+                                                <li><a href="#">Клеи и средства для укладки плитки</a></li>
+                                                <li><a href="#">Плитка</a></li>
+                                                <li><a href="#">Керамогранит</a></li>
+                                                <li><a href="#">Мозаика</a></li>
+                                                <li><a href="#">Затирки для швов плитки</a></li>
+                                                <li><a href="#">Клеи и средства для укладки плитки</a></li>
+                                                <li><a href="#">Плитка</a></li>
+                                                <li><a href="#">Керамогранит</a></li>
+                                                <li><a href="#">Мозаика</a></li>
+                                                <li><a href="#">Затирки для швов плитки</a></li>
+                                                <li><a href="#">Клеи и средства для укладки плитки</a></li>
+                                            </div>
+                                            <div class="menu__images">
+                                                <img src="/images/header/menu/plit.png" alt="Плитка">
+                                            </div>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Фасад</a></li>
+                                    <li><a href="#">Двери</a></li>
+                                    <li><a href="#">Сантехника</a></li>
+                                    <li><a href="#">Лако-красочные материалы</a></li>
+                                    <li><a href="#">Ленолиум</a></li>
+                                    <li><a href="#">Санфаянс</a></li>
+                                    <li><a href="#">Другие товары</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="search">
+                        <form action="" class="search__form">
+                            <input type="text" class="search__form-input" placeholder="Поиск по каталогу среди товаров и фирм...">
+                            <button type="submit" class="search__form-button"><i class="icon search"></i></button>
+                        </form>
+                    </div>
+                    <div class="widget">
+                        <div class="widget__block">
+                            <a href="#" class="widget__block-link">
+                                <i class="icon union"></i>
+                                Сравнение
+                                <span>(0)</span>
+                            </a>
+                        </div>
+                        <div class="widget__block">
+                            <a href="#" class="widget__block-link">
+                                <i class="icon favorite"></i>
+                                Избранное
+                                <span>(0)</span>
+                            </a>
+                        </div>
+                        <div class="widget__block">
+                            <a href="#" class="widget__block-link">
+                                <i class="icon cart"></i>
+                                Корзина
+                                <span>(0)</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- / конец хедера -->
+
+        <!-- Хлебные крошки -->
+        <div class="breadcrumb" aria-label="You are here:" role="navigation">
+            <div class="container">
+                <ul class="breadcrumbs">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Каталог товаров</a></li>
+                    <li><a href="#">Кровля</a></li>
+                    <li>Металлочерепица Grand Line Kredo Quarzit 0,5 мм RR 32 резка</li>
+                  </ul>
+            </div>
+        </div>
+        <!-- / Хлебные крошки -->
+
+        <!-- Контентная часть -->
+        <main style="background-color: #F8F8F8;">
+            <div class="container">
+
+                <div class="content">
+
+                    <a href="#" class="back mg-32">Вернуться</a>
+
+                    <div class="page__header pdt0">
+                        <h1 class="page__title">Металлочерепица Grand Line Kredo Quarzit 0,5 мм RR 32 резка</h1>
+                    </div>
+                    
+                    <div class="fullcard">
+                        <div class="product__rating">
+                            <div class="product__rating-top" style="width: 60%"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                            <div class="product__rating-bottom"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                            <span class="product__rating-value">3</span>
+                        </div>
+                        <div class="fullcard__product">
+                            <div class="fullcard__slider">
+                                <div class="slider-for">
+                                    <div>
+                                        <img src="/css/images/content/products/Fullcard.png">
+                                    </div>
+                                    <div>
+                                        <img src="/css/images/content/products/Fullcard.png">
+                                    </div>
+                                    <div>
+                                        <img src="/css/images/content/products/Fullcard.png">
+                                    </div>
+                                    <div>
+                                        <img src="/css/images/content/products/Fullcard.png">
+                                    </div>
+                                    <div>
+                                        <img src="/css/images/content/products/Fullcard.png">
+                                    </div>
+                                    <div>
+                                        <img src="/css/images/content/products/Fullcard.png">
+                                    </div>
+                                </div>
+                                <div class="slider-nav">
+                                    <div>
+                                        <img src="/css/images/content/products/Fullcard.png">
+                                    </div>
+                                    <div>
+                                        <img src="/css/images/content/products/Fullcard.png">
+                                    </div>
+                                    <div>
+                                        <img src="/css/images/content/products/Fullcard.png">
+                                    </div>
+                                    <div>
+                                        <img src="/css/images/content/products/Fullcard.png">
+                                    </div>
+                                    <div>
+                                        <img src="/css/images/content/products/Fullcard.png">
+                                    </div>
+                                    <div>
+                                        <img src="/css/images/content/products/Fullcard.png">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fullcard__content">
+                                <div class="fullcard__buttons">
+                                    <button class="add">
+                                        <img src="/css/images/content/fullcard/favorite.svg" alt="">
+                                        В избранное
+                                    </button>
+                                    <button class="add">
+                                        <img src="/css/images/content/fullcard/sravn.svg" alt="">
+                                        Сравнить товар
+                                    </button>
+                                </div>
+                                <h3 class="fullcard__title">Металлочерепица Grand Line Kredo Quarzit 0,5 мм RR 32 резка</h3>
+
+                                <!-- <div class="fullcard__block">
+                                    <div class="fullcard__block-1">
+                                        <div class="fullcard__block-old">1 899 ₽</div>
+                                        <div class="fullcard__block-new"><strong>от 723,60 ₽/кв.м</strong></div>
+                                    </div>
+                                    <div class="fullcard__block-2">
+                                        <div class="fullcard__block-availability available">
+                                            В наличии
+                                        </div>
+                                        <div class="fullcard__block-availability share">
+                                            <img src="/css/images/content/products/share.svg" alt="">
+                                            Поделиться
+                                        </div>
+                                    </div>
+                                    <div class="fullcard__block-3">
+                                        <div class="number-input">
+                                            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+                                            <input class="quantity" min="1" name="quantity" value="1" type="number">
+                                            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+                                        </div>
+                                    </div>
+                                    <div class="fullcard__block-4">
+                                        <button class="fullcard__block-button addcart">
+                                            <img src="/css/images/content/products/Cart.svg" alt="">
+                                            <span>В корзину</span>
+                                        </button>
+                                        <button class="fullcard__block-button click">
+                                            <img src="/css/images/content/products/Click_2.svg" alt="">
+                                            <span>Купить в 1 клик</span>
+                                        </button>
+                                    </div>
+                                    <div class="fullcard__block-5">
+                                        <div class="fullcard__block-sum">
+                                            Итого товара на сумму:
+                                            <strong>723,60 ₽</strong>
+                                        </div>
+                                    </div>
+                                    <div class="fullcard__block-6">
+                                        <div class="fullcard__block-bottom">
+                                            Цена действительна только для интернет-магазина и может отличаться от цен в розничных магазинах
+                                        </div>
+                                    </div>
+                                </div> -->
+
+
+                                <div class="fullcard__block">
+                                    <div class="fullcard__block-price">
+                                        <div class="fullcard__block-old">1 899 ₽</div>
+                                        <div class="fullcard__block-new"><strong>от 723,60 ₽/кв.м</strong></div>
+                                        <div class="number-input">
+                                            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+                                            <input class="quantity" min="1" name="quantity" value="1" type="number">
+                                            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+                                        </div>
+                                        <div class="fullcard__block-sum">
+                                            Итого товара на сумму:
+                                            <strong>723,60 ₽</strong>
+                                        </div>
+                                    </div>
+                                    <div class="fullcard__block-cart">
+                                        <div class="fullcard__block-top">
+                                            <div class="fullcard__block-availability available">
+                                                В наличии
+                                            </div>
+                                            <div class="fullcard__block-availability share">
+                                                <img src="/css/images/content/products/share.svg" alt="">
+                                                Поделиться
+                                            </div>
+                                        </div>
+                                        <div class="fullcard__block-center">
+                                            <button class="fullcard__block-button addcart">
+                                                <img src="/css/images/content/products/Cart.svg" alt="">
+                                                <span>В корзину</span>
+                                            </button>
+                                            <button class="fullcard__block-button click">
+                                                <img src="/css/images/content/products/Click_2.svg" alt="">
+                                                <span>Купить в 1 клик</span>
+                                            </button>
+                                        </div>
+                                        <div class="fullcard__block-bottom">
+                                            Цена действительна только для интернет-магазина и может отличаться от цен в розничных магазинах
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            
+            <div class="fullcard tab">
+                <div class="container">
+                    <ul class="tabs" data-tabs id="full-tabs">
+                        <li class="tabs-title is-active"><a href="#description" aria-selected="true">Описание</a></li>
+                        <li class="tabs-title"><a href="#specifications" data-tabs-target="specifications">Характеристики</a></li>
+                        <li class="tabs-title"><a href="#ask" data-tabs-target="ask">Задать вопрос</a></li>
+                        <li class="tabs-title"><a href="#availability" data-tabs-target="availability">Наличие в магазинах</a></li>
+                        <li class="tabs-title"><a href="#additionally" data-tabs-target="additionally">Дополнительно</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="content">
+
+                    <div class="tabs-content fullcard__tabs" data-tabs-content="full-tabs">
+                        <div class="tabs-panel is-active" id="description">
+                            <div class="fullcard__description">
+                                <p>Металлочерепица Grand Line Optima Classic Pe 0,45 мм Ral 3003 – классическая черепица, оформленная в скандинавском стиле.</p>
+                                <p>Металлочерепица Grand Line Optima Classic Pe 0,45 мм Ral 3003 – классическая черепица, оформленная в скандинавском стиле. Напоминая по форме стандартную керамическую, она объединила в себе распространенную геометрию, благородный внешний вид и безупречную точность стыка листов. Данная серия самая популярная среди застройщиков, поскольку имеет красивую классическую форму и ровные линии стыков, облегчающие процесс укладки.</p>
+
+                            </div>
+                        </div>
+                        <div class="tabs-panel" id="specifications">
+
+                            <div class="fullcard__specifications">
+                                <div class="fullcard__specifications-cert">
+                                    <div class="fullcard__specifications-title">
+                                        Инструкции и сертификаты
+                                    </div>
+                                    <div class="fullcard__specifications-list">
+                                        <div class="fullcard__specifications-item">
+                                            <img src="/css/images/content/fullcard/spec/pdf.svg" alt="PDF file">
+                                            <div class="fullcard__specifications-text">
+                                                <a hred="#" class="fullcard__specifications-name">
+                                                    Скачать сертификат соответствия
+                                                </a>
+                                                <div class="fullcard__specifications-format">
+                                                    pdf (1.5 Мбайт)
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="fullcard__specifications-item">
+                                            <img src="/css/images/content/fullcard/spec/pdf.svg" alt="PDF file">
+                                            <div class="fullcard__specifications-text">
+                                                <a hred="#" class="fullcard__specifications-name">
+                                                    Скачать сертификат соответствия
+                                                </a>
+                                                <div class="fullcard__specifications-format">
+                                                    pdf (1.5 Мбайт)
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="fullcard__specifications-tables">
+                                    <table class="fullcard__specifications-table">
+                                        <tr>
+                                          <td class="">Вес брутто</td>
+                                          <td class="">4,5 кг</td>
+                                        </tr>
+                                        <tr>
+                                          <td class="">Коллекция</td>
+                                          <td class="">Classic</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="">Покрытие</td>
+                                            <td class="">Полиэстер</td>
+                                        </tr>
+                                        <tr>
+                                        <td class="">Количество цинка</td>
+                                        <td class="">100 г/м2</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="tabs-panel" id="ask">
+
+                            // ask component
+                            
+                        </div>
+                        <div class="tabs-panel" id="availability">
+
+                            <table class="availability__table">
+                                <tr>
+                                    <th class="">Адрес</th>
+                                    <th class="">Наличие</th>
+                                    <th class="">Режим работы</th>
+                                </tr>
+                                <tr>
+                                    <td class="">Якутск, Автодорожная, 1</td>
+                                    <td class="">Есть в наличии</td>
+                                    <td class="">Ежедневно с 10:00 до 21:00</td>
+                                </tr>
+                                <tr>
+                                    <td class="">Якутск, Автодорожная, 1</td>
+                                    <td class="">Есть в наличии</td>
+                                    <td class="">Ежедневно с 10:00 до 21:00</td>
+                                </tr>
+                                <tr>
+                                    <td class="">Якутск, Автодорожная, 1</td>
+                                    <td class="">Есть в наличии</td>
+                                    <td class="">Ежедневно с 10:00 до 21:00</td>
+                                </tr>
+                            </table>
+                            
+                        </div>
+                        <div class="tabs-panel" id="additionally">
+
+                            additionally
+                            
+                        </div>
+                    </div>
+
+                    <div class="fullcard__others">
+                        <h3 class="fullcard__others-title">
+                            С этим товаром покупают
+                        </h3>
+
+                        <div class="products">
+                            <div class="product">
+                                <div class="product__image">
+                                    <a href="#" class="product__title-link"><img src="/images/content/products/Rectangle 38.png" alt=""></a>
+                                    <!-- Добавление: кнопка удаления из избранного -->
+                                    <div class="button__block">
+                                        <button class="button__add"><img src="/css/images/content/products/Add_Favorites.svg" alt=""></button>
+                                        <button class="button__add"><img src="/css/images/content/products/Sravn.svg" alt=""></button>
+                                    </div>
+                                </div>
+                                <div class="product__rating">
+                                    <div class="product__rating-top" style="width: 60%"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                    <div class="product__rating-bottom"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                    <span class="product__rating-value">3</span>
+                                </div>
+                                <div class="product__title">
+                                    <a href="#" class="product__title-link">Металлочерепица Grand Line Kredo Quarzit 0,5 мм RR 32 резка</a>
+                                </div>
+                                <div class="product__vcode">
+                                    Артикул: 10008698
+                                </div>
+                                <div class="product__cart">
+                                    <div class="product__price">
+                                        <div class="product__price-old">1 899 ₽</div>
+                                        <div class="product__price-new"><strong>от 723,60 ₽/кв.м</strong></div>
+                                    </div>
+                                    <div class="product__add">
+                                        <button title="Добавить товар в корзину"><img src="/images/content/products/Add.svg" alt="Добавить в корзину"></button>
+                                    </div>
+                                </div>
+                                <div class="product__hidden">
+                                    <div class="number-input">
+                                        <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+                                        <input class="quantity" min="1" name="quantity" value="1" type="number">
+                                        <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+                                    </div>
+
+                                    <div class="product__hidden-sum">Итого: <strong>1 499 ₽</strong></div>
+
+                                    <button class="product__hidden-button selected">
+                                        <span>Добавить в корзину</span>
+                                        <img src="/css/images/content/products/Add.svg" alt="Добавить в корзину">
+                                    </button>
+                                    <button class="product__hidden-button">
+                                        <span>Купить в 1 клик</span>
+                                        <img src="/css/images/content/products/Click.svg" alt="Добавить в корзину">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product__image">
+                                    <a href="#" class="product__title-link"><img src="/images/content/products/Rectangle 38 (1).png" alt=""></a>
+                                    <div class="button__block">
+                                        <button class="button__add"><img src="/css/images/content/products/Add_Favorites.svg" alt=""></button>
+                                        <button class="button__add"><img src="/css/images/content/products/Sravn.svg" alt=""></button>
+                                    </div>
+                                </div>
+                                <div class="product__rating">
+                                    <div class="product__rating-top" style="width: 60%"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                    <div class="product__rating-bottom"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                    <span class="product__rating-value">3</span>
+                                </div>
+                                <div class="product__title">
+                                    <a href="#" class="product__title-link">
+                                        Мойка комп. HARTE 4568 (680х480мм) Серый 310 овальная
+                                    </a>
+                                </div>
+                                <div class="product__vcode">
+                                    Артикул: 10008698
+                                </div>
+                                <div class="product__cart">
+                                    <div class="product__price">
+                                        <div class="product__price-old">5 899 ₽</div>
+                                        <div class="product__price-new"><strong>3 156 ₽</strong></div>
+                                    </div>
+                                    <div class="product__add">
+                                        <button title="Добавить товар в корзину"><img src="/images/content/products/Add.svg" alt="Добавить в корзину"></button>
+                                    </div>
+                                </div>
+                                <div class="product__hidden">
+                                    <div class="number-input">
+                                        <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+                                        <input class="quantity" min="1" name="quantity" value="1" type="number">
+                                        <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+                                    </div>
+
+                                    <div class="product__hidden-sum">Итого: <strong>1 499 ₽</strong></div>
+
+                                    <button class="product__hidden-button selected">
+                                        <span>Добавить в корзину</span>
+                                        <img src="/css/images/content/products/Add.svg" alt="Добавить в корзину">
+                                    </button>
+                                    <button class="product__hidden-button">
+                                        <span>Купить в 1 клик</span>
+                                        <img src="/css/images/content/products/Click.svg" alt="Добавить в корзину">
+                                    </button>
+                                </div>
+
+                            </div>
+                            <div class="product disabled">
+                                <div class="product__image">
+                                    <a href="#" class="product__title-link"><img src="/images/content/products/Rectangle 38 (2).png" alt=""></a>
+                                    <div class="button__block">
+                                        <button class="button__add"><img src="/css/images/content/products/Add_Favorites.svg" alt=""></button>
+                                        <button class="button__add"><img src="/css/images/content/products/Sravn.svg" alt=""></button>
+                                    </div>
+                                </div>
+                                <div class="product__rating">
+                                    <div class="product__rating-top" style="width: 60%"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                    <div class="product__rating-bottom"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                    <span class="product__rating-value">3</span>
+                                </div>
+                                <div class="product__title">
+                                    <a href="#" class="product__title-link">
+                                        Смеситель GranFest QUARZ (GF-Z3323) УТКА D-35mm
+                                    </a>
+                                </div>
+                                <div class="product__vcode">
+                                    Артикул: 10008698
+                                </div>
+                                <div class="product__cart">
+                                    <div class="product__price">
+                                        Нет в наличии
+                                    </div>
+                                    <div class="product__add">
+                                        <button title="Нет в наличии"><img src="/css/images/content/products/Non.svg" alt="Нет в наличии"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product__image">
+                                    <a href="#" class="product__title-link"><img src="/images/content/products/Rectangle 38 (3).png" alt=""></a>
+                                    <div class="button__block">
+                                        <button class="button__add"><img src="/css/images/content/products/Add_Favorites.svg" alt=""></button>
+                                        <button class="button__add"><img src="/css/images/content/products/Sravn.svg" alt=""></button>
+                                    </div>
+                                </div>
+                                <div class="product__rating">
+                                    <div class="product__rating-top" style="width: 60%"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                    <div class="product__rating-bottom"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                    <span class="product__rating-value">3</span>
+                                </div>
+                                <div class="product__title">
+                                    <a href="#" class="product__title-link">
+                                        Тумба Классик 55
+                                    </a>
+                                </div>
+                                <div class="product__vcode">
+                                    Артикул: 10008698
+                                </div>
+                                <div class="product__cart">
+                                    <div class="product__price">
+                                        <div class="product__price-old">2 899 ₽</div>
+                                        <div class="product__price-new"><strong>1 800 ₽</strong></div>
+                                    </div>
+                                    <div class="product__add">
+                                        <button title="Добавить товар в корзину"><img src="/images/content/products/Add.svg" alt="Добавить в корзину"></button>
+                                    </div>
+                                </div>
+                                <div class="product__hidden">
+                                    <div class="number-input">
+                                        <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+                                        <input class="quantity" min="1" name="quantity" value="1" type="number">
+                                        <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+                                    </div>
+
+                                    <div class="product__hidden-sum">Итого: <strong>1 499 ₽</strong></div>
+
+                                    <button class="product__hidden-button selected">
+                                        <span>Добавить в корзину</span>
+                                        <img src="/css/images/content/products/Add.svg" alt="Добавить в корзину">
+                                    </button>
+                                    <button class="product__hidden-button">
+                                        <span>Купить в 1 клик</span>
+                                        <img src="/css/images/content/products/Click.svg" alt="Добавить в корзину">
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            
+        </main>
+        <!-- / конец контентной части -->
+
+
+
+        <!-- Футер / версия от 12,03,20 / актуальная на битриксе -->
+        <footer>
+            <div class="footer__block">
+                <div class="container">
+                    <div class="subscribe__block">
+                        <div class="subscribe__block-text large-6">
+                            <img src="/images/footer/plane.png" alt="Plane">
+                            <span>Подпишитесь на рассылку, чтобы быть в курсе акций и спецпредложений</span>
+                        </div>
+                        <div class="input large-6">
+                            <form class="input__form" action="">
+                                <input type="email" placeholder="Введите e-mail..." name="subscribe" autocomplete="off">
+                                <button type="submit">Подписаться</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__block">
+                <div class="container">
+                    <div class="social__block">
+                        <div class="social__links large-6">
+                            Мы в соцсетях:
+                            <a href="#" class="social__links-link" title="Instagram"><i class="icon footer-instagram"></i></a>
+                        </div>
+                        <div class="information large-6">
+                            <div class="information__address">
+                                <i class="icon footer-address"></i>
+                                <div class="information__text">
+                                    г. Якутск, Автодорожная, 1
+                                </div>
+                            </div>
+                            <div class="information__numbers">
+                                <ul class="dropdown menu" data-dropdown-menu>
+                                    <li>
+                                        <a href="#">
+                                            <i class="icon footer-numbers"></i>+7 (4112) 47‒33‒33 (единая справочная)<i class="icon footer-dropdown"></i>
+                                        </a>
+                                        <ul class="menu">
+                                            <li><a href="#">+7 (4112) 47‒33‒33 (единая справочная)</a></li>
+                                            <li><a href="#">+7 (4112) 47‒33‒33 (единая справочная)</a></li>
+                                            <li><a href="#">+7 (4112) 47‒33‒33 (единая справочная)</a></li>
+                                           
+                                        </ul>
+                                    </li>
+                                  </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__block">
+                <div class="container">
+                    <div class="navigation">
+                        <div class="navigation__block large-3">
+                            <div class="navigation__block-title">
+                                Каталог товаров
+                            </div>
+                            <ul class="navigation__list">
+                                <li class="navigation__list-item"><a href="#">Кровля</a></li>
+                                <li class="navigation__list-item"><a href="#">Фасад</a></li>
+                                <li class="navigation__list-item"><a href="#">Плитка</a></li>
+                                <li class="navigation__list-item"><a href="#">Двери</a></li>
+                                <li class="navigation__list-item"><a href="#">Сантехника</a></li>
+                                <li class="navigation__list-item"><a href="#">Лако-красочные материалы</a></li>
+                                <li class="navigation__list-item"><a href="#">Линолиум</a></li>
+                                <li class="navigation__list-item"><a href="#">Другие товары</a></li>
+                            </ul>
+                        </div>
+                        <div class="navigation__block large-3">
+                            <div class="navigation__block-title">
+                                О компании
+                            </div>
+                            <ul class="navigation__list">
+                                <li class="navigation__list-item"><a href="#">О компании</a></li>
+                                <li class="navigation__list-item"><a href="#">Вакансии</a></li>
+                                <li class="navigation__list-item"><a href="#">Контакты</a></li>
+                                <li class="navigation__list-item"><a href="#">Новости</a></li>
+                                <li class="navigation__list-item"><a href="#">Магазины</a></li>
+                            </ul>
+                        </div>
+                        <div class="navigation__block large-3">
+                            <div class="navigation__block-title">
+                                Покупателям
+                            </div>
+                            <ul class="navigation__list">
+                                <li class="navigation__list-item"><a href="#">Личный кабинет покупателя</a></li>
+                                <li class="navigation__list-item"><a href="#">Доставка</a></li>
+                                <li class="navigation__list-item"><a href="#">Обмен/возврат</a></li>
+                                <li class="navigation__list-item"><a href="#">Пользовательское соглашение</a></li>
+                                <li class="navigation__list-item"><a href="#">Политика конфиденциальности</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__block">
+                <div class="container">
+                    <div class="search__block">
+                        <div class="input large-6">
+                            <form class="input__form" action="">
+                                <input type="email" placeholder="Поиск по каталогу среди товаров и фирм" name="subscribe" autocomplete="off">
+                                <button type="submit">Поиск</button>
+                            </form>
+                        </div>
+                        <div class="search__block-text large-6">
+                            Остались вопросы? Вы можете&nbsp;<a href="#" class="search__block-link">написать нам</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__block">
+                <div class="container">
+                    <div class="copyright__block">
+                        <div class="ooo">
+                            <div class="sitemap">
+                                <a href="#" class="sitemap__link">
+                                    <i class="icon footer-sitemap"></i>
+                                    Карта сайта
+                                </a>
+                            </div>
+                            <div class="ooo__text">© 2020 ООО “МеталлТорг”</div>
+                        </div>
+                        <div class="studio">
+                            <span class="studio__text">Дизайн и разработка</span>
+                            <a href="#" class="studio__link">
+                                <img src="/images/footer/Platforma.svg" alt="Платформа" class="studio__images">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- / конец футера -->
+    </div>
+
+    <!-- Подключение скриптов -->
+    <!-- jQuery 3.4.1 -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <!-- <script src="/js/jquery.inputmask.min.js"></script> -->
+    <!-- Compressed JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.1/dist/js/foundation.min.js"></script>
+    <!-- Slick slider -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- Readmore.js -->
+    <script src="/js/readmore.js"></script>
+
+    <script>
+        $(document).foundation();
+
+		$("#catalogMenu").click(function() {
+			$("#overlay").toggleClass('on');
+		});
+
+		$(document).mouseup(function (e){ // событие клика по веб-документу
+			var div2 = $(".vertical.medium-horizontal.menu.dropdown"); // тут указываем ID элемента
+				if (!div2.is(e.target) // если клик был не по нашему блоку
+					&& div2.has(e.target).length === 0) { // и не по его дочерним элементам
+					$(".is-dropdown-submenu-parent.opens-right").removeClass('is-active').attr("data-is-click", "false");
+					$(".vertical.menu.submenu.is-dropdown-submenu.first-sub.dropdown").removeClass('js-dropdown-active');
+				}
+
+			var div = $(".catalog"); // тут указываем ID элемента
+			var div3 = $("#dropdown-auth"); // тут указываем ID элемента
+			
+			// $(".catalog__link").click(function() {
+			// 	if ( $("#overlay").hasClass('on') ){
+			// 		$("#overlay").removeClass('on');
+			// 	} else {
+			// 		$("#overlay").addClass('on');
+			// 	}
+			// });
+			if (!div.is(e.target) // если клик был не по нашему блоку
+				&& div.has(e.target).length === 0) { // и не по его дочерним элементам
+				$("#overlay").removeClass('on');
+				}
+			// if (!div3.is(e.target) // если клик был не по нашему блоку
+			// 	&& div3.has(e.target).length === 0) { // и не по его дочерним элементам
+			// 		$('#dropdown-auth').foundation('close');
+			// 	}
+        });
+        
+        // раскрывающийся список
+        $('.more-cats').click(function(){
+            $(this).text($(this).text() == 'Свернуть' ? 'Все подкатегории' : 'Свернуть');
+            $(this).toggleClass('up');
+        });
+
+        //slider price
+        $(function(){
+
+            $( "#slider-range" ).slider({
+                range: true,
+                min: 0,
+                max: 1000,
+                values: [ 0, 1000 ],
+                slide: function( event, ui ) {
+                    $( ".price__1" ).val(ui.values[ 0 ]).text(ui.values[ 0 ]);
+                    $( ".price__2" ).val(ui.values[ 1 ]).text(ui.values[ 1 ]);
+                }
+            });
+            $( ".price__1" ).val($( "#slider-range" ).slider( "values", 0 )).text($( "#slider-range" ).slider( "values", 0 ));
+            $( ".price__2" ).val($( "#slider-range" ).slider( "values", 1 )).text($( "#slider-range" ).slider( "values", 1 ));
+
+        });
+
+        //input mask
+        // $(document).ready(function(){
+        //     $('.quantity').inputmask(); //specifying options
+        // });
+
+        // Slick Slider
+        $('.slider-for').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: true,
+            asNavFor: '.slider-nav',
+            arrows: false,
+            //adaptiveHeight: true,
+            });
+        $('.slider-nav').slick({
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            asNavFor: '.slider-for',
+            dots: false,
+            centerMode: false,
+            focusOnSelect: true,
+            arrows: false,
+        });
+
+        //readmore
+        $('.fullcard__description').readmore({
+            collapsedHeight: 140,
+            // heightMargin: 5
+        });
+      </script>
+</body>
+</html>
