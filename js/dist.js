@@ -2,6 +2,52 @@
     $("#overlay").toggleClass('on');
 });
 
+$( ".product__hidden-button" ).on( "click", function() {
+    
+    $(this).addClass("blackZone"),
+    setTimeout(function(){
+        //var imgtodrag = $(".blackZone").find('img').eq(0);
+        var imgtodrag = $(".blackZone").parents('.product');
+      var cart = $('.widget__block-link i.icon.cart');
+      if (imgtodrag) {
+          var imgclone = imgtodrag.clone()
+              .offset({
+              'top': imgtodrag.offset().top,
+              'left': imgtodrag.offset().left
+          })
+              .css({
+              'opacity': '.75',
+              //'background-color': '#BAD528',
+              'position': 'absolute',
+              'padding': '1rem',
+              'border-radius': '3px',
+              //'height': '50px',
+              //'width': '50px',
+              'z-index': '1000',
+              'min-height': 'auto',
+              //'box-shadow': '0px 8px 35px rgba(132, 132, 132, 0.6)'
+
+          })
+              .appendTo('body')
+              .animate({
+                  'top': cart.position().top + 10,
+                  'left': cart.position().left + 10,
+                  'width': 0,
+                  'height': 0
+          }, 1000);
+
+          imgclone.animate({
+                'width': 0,
+                'height': 0
+          }, function () {
+              $(this).detach()
+          });
+
+          $(".blackZone").removeClass('blackZone');
+      };
+  }, 0);
+});
+
 //$('#click').click().
 
 $(document).mouseup(function (e){ // событие клика по веб-документу
@@ -131,3 +177,5 @@ $('.slider-nav').slick({
         // instead of a settings object
     ]
 });
+
+
