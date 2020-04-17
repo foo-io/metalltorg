@@ -1,0 +1,734 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="windows1251"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личный кабинет</title>
+    <!-- Compressed CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.1/dist/css/foundation.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.1/dist/css/foundation-float.min.css">
+
+    <link rel="stylesheet" href="../css/foundation-icons/foundation-icons.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+    <div id="overlay"></div>
+
+    <!-- Главный блок (необязательно) -->
+    <div class="main">
+        <!-- Блок хедера, можно копипастить  -->
+        <!-- версия от 12,03 / не будет меняться / актуальная на битриксе -->
+        <header class="header">
+            <div class="header__top">
+                <div class="container header__top-block">
+                    <div class="name">Интернет-магазин ООО “МеталлТорг”</div>
+                    <div class="information">
+                        <div class="information__address">
+                            <i class="icon address"></i>
+                            <div class="information__text">
+                                г. Якутск, Автодорожная, 1
+                            </div>
+                        </div>
+                        <div class="information__instagram">
+                            <i class="icon instagram"></i>
+                            <div class="information__text">
+                                @metalltorg_ykt
+                            </div>
+                        </div>
+                        <div class="information__numbers">
+                            <ul class="dropdown menu" data-dropdown-menu>
+                                <li>
+                                    <a href="#">
+                                        <i class="icon numbers"></i>+7 (4112) 47‒33‒33 (единая справочная)<i class="icon dropdown"></i>
+                                    </a>
+                                    <ul class="menu">
+                                        <li><a href="#">+7 (4112) 47‒33‒33 (единая справочная)</a></li>
+                                        <li><a href="#">+7 (4112) 47‒33‒33 (единая справочная)</a></li>
+                                        <li><a href="#">+7 (4112) 47‒33‒33 (единая справочная)</a></li>
+                                       
+                                    </ul>
+                                </li>
+                              </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__center">
+                <div class="container header__center-block">
+                    <div class="header__logo g-3">
+                        <a href="#" class="header__logo-link">
+                            <img src="/images/header/logo.svg" alt="МеталлТорг">
+                        </a>
+                    </div>
+                    <div class="header__nav">
+                        <ul class="dropdown menu header__menu" data-dropdown-menu>
+                            <li class="header__menu-link"><a href="#">Новости</a></li>
+                            <li class="header__menu-link">
+                                <a href="#">О компании<i class="icon dropdown"></i></a>
+                                <ul class="menu">
+                                    <li><a href="#">О компании</a></li>
+                                    <li><a href="#">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li class="header__menu-link"><a href="#">Вакансии</a></li>
+                            <li class="header__menu-link"><a href="#">Контакты</a></li>
+                            <li class="header__menu-link">
+                                <a href="#">Покупателям <i class="icon dropdown"></i></a>
+                                <ul class="menu">
+                                    <li><a href="#">Личный кабинет покупателя</a></li>
+                                    <li><a href="#">Доставка</a></li>
+                                    <li><a href="#">Обмен/возврат</a></li>
+                                    <li><a href="#">Пользовательские соглашения</a></li>
+                                    <li><a href="#">Политика конфиденциальности</a></li>
+                                </ul>
+                            </li>
+                          </ul>
+                    </div>
+                    <div class="header__auth">
+                        <div class="header__auth-login">
+                            <a href="#"><i class="fi-torso" style="margin-right: 10px;"></i> Вход</a>
+                        </div>
+                        <div class="header__auth-register">
+                            <a href="#">Регистрация</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <div class="container header__bottom-block">
+                    <div class="catalog">
+                        <ul class="vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown" data-click-open="true" data-disable-hover="true" data-close-on-click-inside="true">
+                            <li>
+                                <a href="#" class="catalog__link" id="catalogMenu">
+                                    <i class="icon burger"></i>
+                                    Каталог товаров
+                                    <i class="icon dropdown-white"></i>
+                                </a>
+                                <ul class="vertical menu" data-responsive-menu="drilldown medium-dropdown"  data-disable-hover="false">
+                                    <li>
+                                        <a href="#" class="catalog__link">Плитка<i class="icon dropdown-horizontal"></i></a>
+                                        <ul class="vertical menu">
+                                            <div class="menu__header">
+                                                <h4>Плитка</h4>
+                                            </div>
+                                            <div class="menu__content">
+                                                <li><a href="#">Плитка</a></li>
+                                                <li><a href="#">Керамогранит</a></li>
+                                                <li><a href="#">Мозаика</a></li>
+                                                <li><a href="#">Затирки для швов плитки</a></li>
+                                                <li><a href="#">Клеи и средства для укладки плитки</a></li>
+                                                <li><a href="#">Плитка</a></li>
+                                                <li><a href="#">Керамогранит</a></li>
+                                                <li><a href="#">Мозаика</a></li>
+                                                <li><a href="#">Затирки для швов плитки</a></li>
+                                                <li><a href="#">Клеи и средства для укладки плитки</a></li>
+                                                <li><a href="#">Плитка</a></li>
+                                                <li><a href="#">Керамогранит</a></li>
+                                                <li><a href="#">Мозаика</a></li>
+                                                <li><a href="#">Затирки для швов плитки</a></li>
+                                                <li><a href="#">Клеи и средства для укладки плитки</a></li>
+                                            </div>
+                                            <div class="menu__images">
+                                                <img src="/images/header/menu/plit.png" alt="Плитка">
+                                            </div>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="catalog__link">Кровля<i class="icon dropdown-horizontal"></i></a>
+                                        <ul class="vertical menu">
+                                            <div class="menu__header">
+                                                <h4>Кровля</h4>
+                                            </div>
+                                            <div class="menu__content">
+                                                <li><a href="#">Плитка</a></li>
+                                                <li><a href="#">Керамогранит</a></li>
+                                                <li><a href="#">Мозаика</a></li>
+                                                <li><a href="#">Затирки для швов плитки</a></li>
+                                                <li><a href="#">Клеи и средства для укладки плитки</a></li>
+                                                <li><a href="#">Плитка</a></li>
+                                                <li><a href="#">Керамогранит</a></li>
+                                                <li><a href="#">Мозаика</a></li>
+                                                <li><a href="#">Затирки для швов плитки</a></li>
+                                                <li><a href="#">Клеи и средства для укладки плитки</a></li>
+                                                <li><a href="#">Плитка</a></li>
+                                                <li><a href="#">Керамогранит</a></li>
+                                                <li><a href="#">Мозаика</a></li>
+                                                <li><a href="#">Затирки для швов плитки</a></li>
+                                                <li><a href="#">Клеи и средства для укладки плитки</a></li>
+                                            </div>
+                                            <div class="menu__images">
+                                                <img src="/images/header/menu/plit.png" alt="Плитка">
+                                            </div>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Фасад</a></li>
+                                    <li><a href="#">Двери</a></li>
+                                    <li><a href="#">Сантехника</a></li>
+                                    <li><a href="#">Лако-красочные материалы</a></li>
+                                    <li><a href="#">Ленолиум</a></li>
+                                    <li><a href="#">Санфаянс</a></li>
+                                    <li><a href="#">Другие товары</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="search">
+                        <form action="" class="search__form">
+                            <input type="text" class="search__form-input" placeholder="Поиск по каталогу среди товаров и фирм...">
+                            <button type="submit" class="search__form-button"><i class="icon search"></i></button>
+                        </form>
+                    </div>
+                    <div class="widget">
+                        <div class="widget__block">
+                            <a href="#" class="widget__block-link">
+                                <i class="icon union"></i>
+                                Сравнение
+                                <span>(0)</span>
+                            </a>
+                        </div>
+                        <div class="widget__block">
+                            <a href="#" class="widget__block-link">
+                                <i class="icon favorite"></i>
+                                Избранное
+                                <span>(0)</span>
+                            </a>
+                        </div>
+                        <div class="widget__block">
+                            <a href="#" class="widget__block-link">
+                                <i class="icon cart"></i>
+                                Корзина
+                                <span>(0)</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- / конец хедера -->
+
+        <!-- Хлебные крошки -->
+
+        <div class="breadcrumb" aria-label="You are here:" role="navigation">
+            <div class="container">
+                <ul class="breadcrumbs">
+                    <li><a href="#">Главная</a></li>
+                    <li>Личный кабинет</li>
+                  </ul>
+            </div>
+        </div>
+        <!-- / Хлебные крошки -->
+
+        <!-- Контентная часть -->
+        <main>
+            <div class="container">
+                <div class="page__header">
+
+                    <!-- Начало контента -->
+
+                    <h1 class="page__title">Личный кабинет</h1>
+
+                </div>
+            </div>
+
+            <div class="tab">
+                <div class="container">
+                    <ul class="tabs" data-tabs id="auth-tabs">
+                        <li class="tabs-title is-active"><a href="#personal" aria-selected="true">Личные данные</a></li>
+                        <li class="tabs-title"><a href="#orders" data-tabs-target="orders">Мои заказы</a></li>
+                        <li class="tabs-title"><a href="#address" data-tabs-target="address">Адрес доставки</a></li>
+                        <li class="tabs-title"><a href="#favorites" data-tabs-target="favorites">Избранные товары</a></li>
+                    </ul>        
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="content">
+
+                    <div class="tabs-content auth" data-tabs-content="auth-tabs">
+                        <div class="tabs-panel is-active" id="personal">
+                            
+                            <form action="" class="medium-6">
+                                <h3 class="auth__title">Контактные данные</h3>
+
+                                <div class="auth__block">
+                                    <div class="columns">
+                                        <div class="medium-6 column">
+                                            <label>
+                                                <p>Имя</p>
+                                                <input type="text" class="auth__input">
+                                            </label>
+                                        </div>
+                                        <div class="medium-6 column">
+                                            <label>
+                                                <p>Фамилия</p>
+                                                <input type="text" class="auth__input">
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="columns">
+                                        <div class="medium-6 column">
+                                            <label>
+                                                <p>Ваш E-mail</p>
+                                                <input type="text" class="auth__input">
+                                            </label>
+                                        </div>
+                                    <div class="medium-6 column">
+                                        <label>
+                                            <p>Мобильный телефон</p>
+                                            <input type="text" class="auth__input">
+                                        </label>
+                                </div>
+                                    </div>
+                                </div>
+                                <h3 class="auth__title">Изменить пароль</h3>
+
+                                <div class="auth__block">
+                                    <div class="columns">
+                                        <div class="medium-6 column">
+                                            <label>
+                                                <p>Новый пароль</p>
+                                                <input type="text" class="auth__input">
+                                            </label>
+                                            <div class="passnote">Пароль должен быть не менее 6 символов длиной.</div>
+                                        </div>
+                                        <div class="medium-6 column">
+                                            <label>
+                                                <p>Введите пароль еще раз</p>
+                                                <input type="text" class="auth__input">
+                                            </label>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <input type="submit" value="Сохранить изменения" class="auth__button">
+
+                              </form>
+
+                        </div>
+                        <div class="tabs-panel" id="orders">
+
+                            <div class="orders">
+                                <ul class="tabs" data-tabs id="order-tabs">
+                                    <li class="tabs-title is-active"><a href="#process" aria-selected="true">Заказы в обработке</a></li>
+                                    <li class="tabs-title"><a href="#archive" data-tabs-target="archive">Архив заказов</a></li>
+                                </ul>        
+                                <div class="tabs-content orders" data-tabs-content="order-tabs">
+                                    <div class="tabs-panel is-active" id="process">
+                                        <table class="orderlist">
+                                            <tr>
+                                              <th class="" style="width: 30%;">Номер и дата</th>
+                                              <th class="" style="width: 12%;">Сумма</th>
+                                              <th class="" style="    float: right;
+                                              width: 25%;">Статус</th>
+                                              <th class="" style="width: 15%;"></th>
+                                            </tr>
+                                            <tr>
+                                              <td class=""><span class="ordernum">№234</span> от 28.05.2019 04:50</td>
+                                              <td class="">1 640 ₽</td>
+                                              <td class="">Принят</td>
+                                              <td class="orderlist__functions">
+                                                <button><img src="/css/images/content/personal/icon/Cancel.svg" alt=""></button>
+                                                <button><img src="/css/images/content/personal/icon/Refresh.svg" alt=""></button>
+                                                <button><img src="/css/images/content/personal/icon/Delete.svg" alt=""></button>
+                                            </td>
+                                            </tr>
+                                            <tr>
+                                              <td class=""><span class="ordernum">№162</span> от 17.01.2019 12:23</td>
+                                              <td class="">14 235 ₽</td>
+                                              <td class="">Принят</td>
+                                              <td class="orderlist__functions">
+                                                <button><img src="/css/images/content/personal/icon/Cancel.svg" alt=""></button>
+                                                <button><img src="/css/images/content/personal/icon/Refresh.svg" alt=""></button>
+                                                <button><img src="/css/images/content/personal/icon/Delete.svg" alt=""></button>
+                                            </td>
+                                            </tr>
+                                            <tr>
+                                              <td class=""><span class="ordernum">№95</span> от 25.12.2018 16:19</td>
+                                              <td class="">5 830 ₽</td>
+                                              <td class="">Принят</td>
+                                              <td class="orderlist__functions">
+                                                <button><img src="/css/images/content/personal/icon/Cancel.svg" alt=""></button>
+                                                <button><img src="/css/images/content/personal/icon/Refresh.svg" alt=""></button>
+                                                <button><img src="/css/images/content/personal/icon/Delete.svg" alt=""></button>
+                                            </td>
+                                            </tr>
+                                          </table>
+                                    </div>
+                                    <div class="tabs-panel" id="archive">
+                                        <table class="orderlist">
+                                            <tr>
+                                              <th class="" style="width: 30%;">Номер и дата</th>
+                                              <th class="" style="width: 12%;">Сумма</th>
+                                              <th class="" style="    float: right;
+                                              width: 25%;">Статус</th>
+                                              <th class="" style="width: 15%;"></th>
+                                            </tr>
+                                            <tr>
+                                              <td class=""><span class="ordernum">№75</span> от 28.05.2019 04:50</td>
+                                              <td class="">2 440 ₽</td>
+                                              <td class="">Выполнено</td>
+                                              <td class="orderlist__functions">
+                                                <button><img src="/css/images/content/personal/icon/Cancel.svg" alt=""></button>
+                                                <button><img src="/css/images/content/personal/icon/Refresh.svg" alt=""></button>
+                                                <button><img src="/css/images/content/personal/icon/Delete.svg" alt=""></button>
+                                            </td>
+                                            </tr>
+                                            <tr>
+                                              <td class=""><span class="ordernum">№255</span> от 17.01.2019 12:23</td>
+                                              <td class="">32 205 ₽</td>
+                                              <td class="">Отклонено</td>
+                                              <td class="orderlist__functions">
+                                                <button><img src="/css/images/content/personal/icon/Cancel.svg" alt=""></button>
+                                                <button><img src="/css/images/content/personal/icon/Refresh.svg" alt=""></button>
+                                                <button><img src="/css/images/content/personal/icon/Delete.svg" alt=""></button>
+                                            </td>
+                                            </tr>
+                                            <tr>
+                                              <td class=""><span class="ordernum">№485</span> от 25.12.2018 16:19</td>
+                                              <td class="">1 190 ₽</td>
+                                              <td class="">Выполнено</td>
+                                              <td class="orderlist__functions">
+                                                <button><img src="/css/images/content/personal/icon/Cancel.svg" alt=""></button>
+                                                <button><img src="/css/images/content/personal/icon/Refresh.svg" alt=""></button>
+                                                <button><img src="/css/images/content/personal/icon/Delete.svg" alt=""></button>
+                                            </td>
+                                            </tr>
+                                          </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs-panel" id="address">
+
+                            <form action="" class="medium-9">
+                                <h3 class="auth__title">Адрес доставки</h3>
+
+                                <div class="auth__block">
+                                    <div class="columns">
+                                        <div class="column">
+                                            <label>
+                                                <p>Населенный пункт</p>
+                                                <input type="text" class="auth__input">
+                                            </label>
+                                        </div>
+                                        <div class="column">
+                                            <label>
+                                                <p>Улица</p>
+                                                <input type="text" class="auth__input">
+                                            </label>
+                                        </div>
+                                        <div class="column gp-33">
+                                            <label>
+                                                <p>Дом</p>
+                                                <input type="text" class="auth__input">
+                                            </label>
+                                        </div>
+                                        <div class="column gp-33">
+                                            <label>
+                                                <p>Подъезд</p>
+                                                <input type="text" class="auth__input">
+                                            </label>
+                                        </div>
+                                        <div class="column gp-33">
+                                            <label>
+                                                <p>Квартира</p>
+                                                <input type="text" class="auth__input">
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="addressnote">Если у вас частный дом, не заполняйте поля “Подъезд” и “Квартира”</div>
+                                </div>
+
+                                <input type="submit" value="Сохранить изменения" class="auth__button">
+
+                              </form>
+
+                        </div>
+                        <div class="tabs-panel" id="favorites">
+                            <h3 class="auth__title">Избранные товары</h3>
+
+                            <div class="products">
+                                <div class="product">
+                                    <div class="product__image">
+                                        <a href="#" class="product__title-link"><img src="/images/content/products/Rectangle 38.png" alt=""></a>
+                                        <!-- Добавление: кнопка удаления из избранного -->
+                                        <button class="delete-favorite"><img src="/css/images/content/personal/icon/Cancel.svg" alt=""></button>
+                                    </div>
+                                    <div class="product__rating">
+                                        <div class="product__rating-top" style="width: 60%"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                        <div class="product__rating-bottom"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                        <span class="product__rating-value">3</span>
+                                    </div>
+                                    <div class="product__title">
+                                        <a href="#" class="product__title-link">Металлочерепица Grand Line Kredo Quarzit 0,5 мм RR 32 резка</a>
+                                    </div>
+                                    <div class="product__vcode">
+                                        Артикул: 10008698
+                                    </div>
+                                    <div class="product__cart">
+                                        <div class="product__price">
+                                            <div class="product__price-old">1 899 ₽</div>
+                                            <div class="product__price-new"><strong>от 723,60 ₽/кв.м</strong></div>
+                                        </div>
+                                        <div class="product__add">
+                                            <button title="Добавить товар в корзину"><img src="/images/content/products/Add.svg" alt="Добавить в корзину"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="product__image">
+                                        <a href="#" class="product__title-link"><img src="/images/content/products/Rectangle 38 (1).png" alt=""></a>
+                                        <!-- Добавление: кнопка удаления из избранного -->
+                                        <button class="delete-favorite"><img src="/css/images/content/personal/icon/Cancel.svg" alt=""></button>
+                                    </div>
+                                    <div class="product__rating">
+                                        <div class="product__rating-top" style="width: 60%"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                        <div class="product__rating-bottom"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                        <span class="product__rating-value">3</span>
+                                    </div>
+                                    <div class="product__title">
+                                        <a href="#" class="product__title-link">
+                                            Мойка комп. HARTE 4568 (680х480мм) Серый 310 овальная
+                                        </a>
+                                    </div>
+                                    <div class="product__vcode">
+                                        Артикул: 10008698
+                                    </div>
+                                    <div class="product__cart">
+                                        <div class="product__price">
+                                            <div class="product__price-old">5 899 ₽</div>
+                                            <div class="product__price-new"><strong>3 156 ₽</strong></div>
+                                        </div>
+                                        <div class="product__add">
+                                            <button title="Добавить товар в корзину"><img src="/images/content/products/Add.svg" alt="Добавить в корзину"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="product__image">
+                                        <a href="#" class="product__title-link"><img src="/images/content/products/Rectangle 38 (2).png" alt=""></a>
+                                        <!-- Добавление: кнопка удаления из избранного -->
+                                        <button class="delete-favorite"><img src="/css/images/content/personal/icon/Cancel.svg" alt=""></button>
+                                    </div>
+                                    <div class="product__rating">
+                                        <div class="product__rating-top" style="width: 60%"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                        <div class="product__rating-bottom"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                        <span class="product__rating-value">3</span>
+                                    </div>
+                                    <div class="product__title">
+                                        <a href="#" class="product__title-link">
+                                            Смеситель GranFest QUARZ (GF-Z3323) УТКА D-35mm
+                                        </a>
+                                    </div>
+                                    <div class="product__vcode">
+                                        Артикул: 10008698
+                                    </div>
+                                    <div class="product__cart">
+                                        <div class="product__price">
+                                            <div class="product__price-old">2 899 ₽</div>
+                                            <div class="product__price-new"><strong>1 450 ₽</strong></div>
+                                        </div>
+                                        <div class="product__add">
+                                            <button title="Добавить товар в корзину"><img src="/images/content/products/Add.svg" alt="Добавить в корзину"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                      </div>
+
+                </div>
+            </div>
+
+                    <!-- / конец контента -->
+
+                </div>
+            </div>
+            
+        </main>
+        <!-- / конец контентной части -->
+
+
+
+        <!-- Футер / версия от 12,03,20 / актуальная на битриксе -->
+        <footer>
+            <div class="footer__block">
+                <div class="container">
+                    <div class="subscribe__block">
+                        <div class="subscribe__block-text large-6">
+                            <img src="/images/footer/plane.png" alt="Plane">
+                            <span>Подпишитесь на рассылку, чтобы быть в курсе акций и спецпредложений</span>
+                        </div>
+                        <div class="input large-6">
+                            <form class="input__form" action="">
+                                <input type="email" placeholder="Введите e-mail..." name="subscribe" autocomplete="off">
+                                <button type="submit">Подписаться</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__block">
+                <div class="container">
+                    <div class="social__block">
+                        <div class="social__links large-6">
+                            Мы в соцсетях:
+                            <a href="#" class="social__links-link" title="Instagram"><i class="icon footer-instagram"></i></a>
+                        </div>
+                        <div class="information large-6">
+                            <div class="information__address">
+                                <i class="icon footer-address"></i>
+                                <div class="information__text">
+                                    г. Якутск, Автодорожная, 1
+                                </div>
+                            </div>
+                            <div class="information__numbers">
+                                <ul class="dropdown menu" data-dropdown-menu>
+                                    <li>
+                                        <a href="#">
+                                            <i class="icon footer-numbers"></i>+7 (4112) 47‒33‒33 (единая справочная)<i class="icon footer-dropdown"></i>
+                                        </a>
+                                        <ul class="menu">
+                                            <li><a href="#">+7 (4112) 47‒33‒33 (единая справочная)</a></li>
+                                            <li><a href="#">+7 (4112) 47‒33‒33 (единая справочная)</a></li>
+                                            <li><a href="#">+7 (4112) 47‒33‒33 (единая справочная)</a></li>
+                                           
+                                        </ul>
+                                    </li>
+                                  </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__block">
+                <div class="container">
+                    <div class="navigation">
+                        <div class="navigation__block large-3">
+                            <div class="navigation__block-title">
+                                Каталог товаров
+                            </div>
+                            <ul class="navigation__list">
+                                <li class="navigation__list-item"><a href="#">Кровля</a></li>
+                                <li class="navigation__list-item"><a href="#">Фасад</a></li>
+                                <li class="navigation__list-item"><a href="#">Плитка</a></li>
+                                <li class="navigation__list-item"><a href="#">Двери</a></li>
+                                <li class="navigation__list-item"><a href="#">Сантехника</a></li>
+                                <li class="navigation__list-item"><a href="#">Лако-красочные материалы</a></li>
+                                <li class="navigation__list-item"><a href="#">Линолиум</a></li>
+                                <li class="navigation__list-item"><a href="#">Другие товары</a></li>
+                            </ul>
+                        </div>
+                        <div class="navigation__block large-3">
+                            <div class="navigation__block-title">
+                                О компании
+                            </div>
+                            <ul class="navigation__list">
+                                <li class="navigation__list-item"><a href="#">О компании</a></li>
+                                <li class="navigation__list-item"><a href="#">Вакансии</a></li>
+                                <li class="navigation__list-item"><a href="#">Контакты</a></li>
+                                <li class="navigation__list-item"><a href="#">Новости</a></li>
+                                <li class="navigation__list-item"><a href="#">Магазины</a></li>
+                            </ul>
+                        </div>
+                        <div class="navigation__block large-3">
+                            <div class="navigation__block-title">
+                                Покупателям
+                            </div>
+                            <ul class="navigation__list">
+                                <li class="navigation__list-item"><a href="#">Личный кабинет покупателя</a></li>
+                                <li class="navigation__list-item"><a href="#">Доставка</a></li>
+                                <li class="navigation__list-item"><a href="#">Обмен/возврат</a></li>
+                                <li class="navigation__list-item"><a href="#">Пользовательское соглашение</a></li>
+                                <li class="navigation__list-item"><a href="#">Политика конфиденциальности</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__block">
+                <div class="container">
+                    <div class="search__block">
+                        <div class="input large-6">
+                            <form class="input__form" action="">
+                                <input type="email" placeholder="Поиск по каталогу среди товаров и фирм" name="subscribe" autocomplete="off">
+                                <button type="submit">Поиск</button>
+                            </form>
+                        </div>
+                        <div class="search__block-text large-6">
+                            Остались вопросы? Вы можете&nbsp;<a href="#" class="search__block-link">написать нам</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__block">
+                <div class="container">
+                    <div class="copyright__block">
+                        <div class="ooo">
+                            <div class="sitemap">
+                                <a href="#" class="sitemap__link">
+                                    <i class="icon footer-sitemap"></i>
+                                    Карта сайта
+                                </a>
+                            </div>
+                            <div class="ooo__text">© 2020 ООО “МеталлТорг”</div>
+                        </div>
+                        <div class="studio">
+                            <span class="studio__text">Дизайн и разработка</span>
+                            <a href="#" class="studio__link">
+                                <img src="/images/footer/Platforma.svg" alt="Платформа" class="studio__images">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- / конец футера -->
+    </div>
+
+    <!-- Подключение скриптов -->
+    <!-- jQuery 3.4.1 -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- Compressed JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.1/dist/js/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+
+		$("#catalogMenu").click(function() {
+			$("#overlay").toggleClass('on');
+		});
+
+		$(document).mouseup(function (e){ // событие клика по веб-документу
+			var div2 = $(".vertical.medium-horizontal.menu.dropdown"); // тут указываем ID элемента
+				if (!div2.is(e.target) // если клик был не по нашему блоку
+					&& div2.has(e.target).length === 0) { // и не по его дочерним элементам
+					$(".is-dropdown-submenu-parent.opens-right").removeClass('is-active').attr("data-is-click", "false");
+					$(".vertical.menu.submenu.is-dropdown-submenu.first-sub.dropdown").removeClass('js-dropdown-active');
+				}
+
+			var div = $(".catalog"); // тут указываем ID элемента
+			var div3 = $("#dropdown-auth"); // тут указываем ID элемента
+			
+			// $(".catalog__link").click(function() {
+			// 	if ( $("#overlay").hasClass('on') ){
+			// 		$("#overlay").removeClass('on');
+			// 	} else {
+			// 		$("#overlay").addClass('on');
+			// 	}
+			// });
+			if (!div.is(e.target) // если клик был не по нашему блоку
+				&& div.has(e.target).length === 0) { // и не по его дочерним элементам
+				$("#overlay").removeClass('on');
+				}
+			if (!div3.is(e.target) // если клик был не по нашему блоку
+				&& div3.has(e.target).length === 0) { // и не по его дочерним элементам
+					$('#dropdown-auth').foundation('close');
+				}
+		});
+      </script>
+</body>
+</html>
